@@ -1,0 +1,1511 @@
+loading data
+[12 10  2 ...  9 19  3]
+total data len:  5010
+(5010, 446) (5010,)
+tr len 1350 | mia_members tr 405 val 270 te 675 | mia_nonmembers tr 405 val 270 te 675 | ref len 0 | val len 300 | test len 1000 | attack te len 0 | remaining data len 1010
+./final-all-models/undefended-trainSize-1500.pth.tar | train acc 95.7037 | val acc 62.0000 | test acc 56.1000
+	evaluation on  ./final-all-models/undefended-trainSize-1500.pth.tar
+	===> correctness-based, entropy-based, m-entropy-based-, confidence-based attacks  ./final-all-models/undefended-trainSize-1500.pth.tar
+For membership inference attack via correctness, the attack acc is 0.690, with train acc 0.970 and test acc 0.591
+For membership inference attack via confidence, the attack acc is 0.721
+Accuracy: 0.7215 | Precision 0.6682 | Recall 0.8800 | f1_score 0.7596
+
+
+For membership inference attack via entropy, the attack acc is 0.680
+Accuracy: 0.6800 | Precision 0.6484 | Recall 0.7867 | f1_score 0.7108
+
+
+For membership inference attack via modified entropy, the attack acc is 0.721
+Accuracy: 0.7207 | Precision 0.6667 | Recall 0.8830 | f1_score 0.7597
+
+
+loading data
+[12 10  2 ...  9 19  3]
+total data len:  5010
+(5010, 446) (5010,)
+tr len 1350 | mia_members tr 405 val 270 te 675 | mia_nonmembers tr 405 val 270 te 675 | ref len 0 | val len 300 | test len 1000 | attack te len 0 | remaining data len 1010
+2022-10-17 00:50:35.812439: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-10-17 00:50:35.933997: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2022-10-17 00:50:36.364116: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2022-10-17 00:50:36.364171: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2022-10-17 00:50:36.364176: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+	evaluation on  ./final-all-models/undefended-trainSize-1500.pth.tar
+	===> loss-based attack  ./final-all-models/undefended-trainSize-1500.pth.tar
+	Accuracy: 0.7274 | Precision 0.6907 | Recall 0.8237 | f1_score 0.7514
+loading data
+[12 10  2 ...  9 19  3]
+total data len:  5010
+(5010, 446) (5010,)
+tr len 1350 | mia_members tr 405 val 270 te 675 | mia_nonmembers tr 405 val 270 te 675 | ref len 0 | val len 300 | test len 1000 | attack te len 0 | remaining data len 1010
+	evaluation on  ./final-all-models/undefended-trainSize-1500.pth.tar
+	===> correctness-based, entropy-based, m-entropy-based-, confidence-based attacks  ./final-all-models/undefended-trainSize-1500.pth.tar
+For membership inference attack via correctness, the attack acc is 0.690, with train acc 0.970 and test acc 0.591
+For membership inference attack via confidence, the attack acc is 0.701
+Accuracy: 0.7015 | Precision 0.7313 | Recall 0.6370 | f1_score 0.6809
+
+
+For membership inference attack via entropy, the attack acc is 0.665
+Accuracy: 0.6652 | Precision 0.7092 | Recall 0.5600 | f1_score 0.6258
+
+
+For membership inference attack via modified entropy, the attack acc is 0.700
+Accuracy: 0.7000 | Precision 0.7250 | Recall 0.6444 | f1_score 0.6824
+
+
+loading data
+[12 10  2 ...  9 19  3]
+total data len:  5010
+(5010, 446) (5010,)
+tr len 1350 | mia_members tr 405 val 270 te 675 | mia_nonmembers tr 405 val 270 te 675 | ref len 0 | val len 300 | test len 1000 | attack te len 0 | remaining data len 1010
+2022-10-17 00:50:43.136278: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-10-17 00:50:43.254690: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2022-10-17 00:50:43.685301: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2022-10-17 00:50:43.685357: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2022-10-17 00:50:43.685363: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+	evaluation on  ./final-all-models/undefended-trainSize-1500.pth.tar
+	===> loss-based attack  ./final-all-models/undefended-trainSize-1500.pth.tar
+	Accuracy: 0.6230 | Precision 0.7562 | Recall 0.3630 | f1_score 0.4905
+loading data
+[12 10  2 ...  9 19  3]
+total data len:  5010
+(5010, 446) (5010,)
+tr len 1350 | mia_members tr 405 val 270 te 675 | mia_nonmembers tr 405 val 270 te 675 | ref len 0 | val len 300 | test len 1000 | attack te len 0 | remaining data len 1010
+2022-10-17 00:50:47.504142: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-10-17 00:50:47.635952: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2022-10-17 00:50:48.079706: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2022-10-17 00:50:48.079759: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2022-10-17 00:50:48.079764: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2022-10-17 00:50:49.393395: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:980] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-10-17 00:50:49.417320: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:980] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-10-17 00:50:49.417561: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:980] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-10-17 00:50:49.417945: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-10-17 00:50:49.419507: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:980] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-10-17 00:50:49.419757: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:980] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-10-17 00:50:49.419969: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:980] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-10-17 00:50:49.420303: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:980] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-10-17 00:50:49.420531: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:980] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-10-17 00:50:49.420750: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:980] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-10-17 00:50:49.420958: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1616] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 21458 MB memory:  -> device: 0, name: NVIDIA RTX A5000, pci bus id: 0000:4b:00.0, compute capability: 8.6
+	evaluation on  ./final-all-models/undefended-trainSize-1500.pth.tar
+ Epoch 4 | current stats acy: 0.6574 precision: 0.9114 recall: 0.3481 F1_Score: 0.5011 | best test stats: 0.6637 precision: 0.9654 recall: 0.3422 F1_Score: 0.5000 
+ Epoch 9 | current stats acy: 0.6944 precision: 0.7734 recall: 0.5556 F1_Score: 0.6437 | best test stats: 0.7222 precision: 0.8519 recall: 0.5481 F1_Score: 0.6618 
+ Epoch 14 | current stats acy: 0.6685 precision: 0.6646 recall: 0.6815 F1_Score: 0.6719 | best test stats: 0.7222 precision: 0.8519 recall: 0.5481 F1_Score: 0.6618 
+ Epoch 19 | current stats acy: 0.6852 precision: 0.7084 recall: 0.6333 F1_Score: 0.6664 | best test stats: 0.7222 precision: 0.8519 recall: 0.5481 F1_Score: 0.6618 
+ Epoch 24 | current stats acy: 0.6648 precision: 0.6801 recall: 0.6444 F1_Score: 0.6578 | best test stats: 0.7222 precision: 0.8519 recall: 0.5481 F1_Score: 0.6618 
+ Epoch 29 | current stats acy: 0.6685 precision: 0.6740 recall: 0.6630 F1_Score: 0.6648 | best test stats: 0.7222 precision: 0.8519 recall: 0.5481 F1_Score: 0.6618 
+ Epoch 34 | current stats acy: 0.6204 precision: 0.6001 recall: 0.7259 F1_Score: 0.6551 | best test stats: 0.7222 precision: 0.8519 recall: 0.5481 F1_Score: 0.6618 
+ Epoch 39 | current stats acy: 0.6352 precision: 0.6355 recall: 0.6593 F1_Score: 0.6438 | best test stats: 0.7222 precision: 0.8519 recall: 0.5481 F1_Score: 0.6618 
+ Epoch 44 | current stats acy: 0.6481 precision: 0.6649 recall: 0.6000 F1_Score: 0.6279 | best test stats: 0.7222 precision: 0.8519 recall: 0.5481 F1_Score: 0.6618 
+ Epoch 49 | current stats acy: 0.6370 precision: 0.6377 recall: 0.6407 F1_Score: 0.6369 | best test stats: 0.7222 precision: 0.8519 recall: 0.5481 F1_Score: 0.6618 
+ Epoch 54 | current stats acy: 0.6185 precision: 0.6115 recall: 0.6556 F1_Score: 0.6306 | best test stats: 0.7222 precision: 0.8519 recall: 0.5481 F1_Score: 0.6618 
+ Epoch 59 | current stats acy: 0.6370 precision: 0.6504 recall: 0.6037 F1_Score: 0.6245 | best test stats: 0.7222 precision: 0.8519 recall: 0.5481 F1_Score: 0.6618 
+ Epoch 64 | current stats acy: 0.6370 precision: 0.6485 recall: 0.6111 F1_Score: 0.6265 | best test stats: 0.7222 precision: 0.8519 recall: 0.5481 F1_Score: 0.6618 
+ Epoch 69 | current stats acy: 0.6426 precision: 0.6473 recall: 0.6444 F1_Score: 0.6421 | best test stats: 0.7222 precision: 0.8519 recall: 0.5481 F1_Score: 0.6618 
+ Epoch 74 | current stats acy: 0.6500 precision: 0.6549 recall: 0.6481 F1_Score: 0.6491 | best test stats: 0.7222 precision: 0.8519 recall: 0.5481 F1_Score: 0.6618 
+ Epoch 79 | current stats acy: 0.6296 precision: 0.6302 recall: 0.6370 F1_Score: 0.6308 | best test stats: 0.7222 precision: 0.8519 recall: 0.5481 F1_Score: 0.6618 
+ Epoch 84 | current stats acy: 0.6370 precision: 0.6375 recall: 0.6519 F1_Score: 0.6418 | best test stats: 0.7222 precision: 0.8519 recall: 0.5481 F1_Score: 0.6618 
+ Epoch 89 | current stats acy: 0.6352 precision: 0.6489 recall: 0.5963 F1_Score: 0.6188 | best test stats: 0.7222 precision: 0.8519 recall: 0.5481 F1_Score: 0.6618 
+ Epoch 94 | current stats acy: 0.6130 precision: 0.6060 recall: 0.6481 F1_Score: 0.6240 | best test stats: 0.7222 precision: 0.8519 recall: 0.5481 F1_Score: 0.6618 
+ Epoch 99 | current stats acy: 0.6333 precision: 0.6355 recall: 0.6444 F1_Score: 0.6367 | best test stats: 0.7222 precision: 0.8519 recall: 0.5481 F1_Score: 0.6618 
+Epoch 100 Local lr 0.000050
+ Epoch 104 | current stats acy: 0.6333 precision: 0.6365 recall: 0.6444 F1_Score: 0.6363 | best test stats: 0.7222 precision: 0.8519 recall: 0.5481 F1_Score: 0.6618 
+ Epoch 109 | current stats acy: 0.6389 precision: 0.6397 recall: 0.6481 F1_Score: 0.6407 | best test stats: 0.7222 precision: 0.8519 recall: 0.5481 F1_Score: 0.6618 
+ Epoch 114 | current stats acy: 0.6370 precision: 0.6385 recall: 0.6444 F1_Score: 0.6384 | best test stats: 0.7222 precision: 0.8519 recall: 0.5481 F1_Score: 0.6618 
+ Epoch 119 | current stats acy: 0.6370 precision: 0.6390 recall: 0.6407 F1_Score: 0.6368 | best test stats: 0.7222 precision: 0.8519 recall: 0.5481 F1_Score: 0.6618 
+ Epoch 124 | current stats acy: 0.6389 precision: 0.6403 recall: 0.6444 F1_Score: 0.6395 | best test stats: 0.7222 precision: 0.8519 recall: 0.5481 F1_Score: 0.6618 
+ Epoch 129 | current stats acy: 0.6296 precision: 0.6283 recall: 0.6444 F1_Score: 0.6335 | best test stats: 0.7222 precision: 0.8519 recall: 0.5481 F1_Score: 0.6618 
+ Epoch 134 | current stats acy: 0.6296 precision: 0.6295 recall: 0.6407 F1_Score: 0.6324 | best test stats: 0.7222 precision: 0.8519 recall: 0.5481 F1_Score: 0.6618 
+ Epoch 139 | current stats acy: 0.6315 precision: 0.6321 recall: 0.6407 F1_Score: 0.6336 | best test stats: 0.7222 precision: 0.8519 recall: 0.5481 F1_Score: 0.6618 
+ Epoch 144 | current stats acy: 0.6315 precision: 0.6321 recall: 0.6407 F1_Score: 0.6336 | best test stats: 0.7222 precision: 0.8519 recall: 0.5481 F1_Score: 0.6618 
+ Epoch 149 | current stats acy: 0.6315 precision: 0.6321 recall: 0.6407 F1_Score: 0.6336 | best test stats: 0.7222 precision: 0.8519 recall: 0.5481 F1_Score: 0.6618 
+ Epoch 154 | current stats acy: 0.6315 precision: 0.6321 recall: 0.6407 F1_Score: 0.6336 | best test stats: 0.7222 precision: 0.8519 recall: 0.5481 F1_Score: 0.6618 
+ Epoch 159 | current stats acy: 0.6296 precision: 0.6299 recall: 0.6407 F1_Score: 0.6325 | best test stats: 0.7222 precision: 0.8519 recall: 0.5481 F1_Score: 0.6618 
+ Epoch 164 | current stats acy: 0.6333 precision: 0.6347 recall: 0.6407 F1_Score: 0.6349 | best test stats: 0.7222 precision: 0.8519 recall: 0.5481 F1_Score: 0.6618 
+ Epoch 169 | current stats acy: 0.6333 precision: 0.6347 recall: 0.6407 F1_Score: 0.6349 | best test stats: 0.7222 precision: 0.8519 recall: 0.5481 F1_Score: 0.6618 
+ Epoch 174 | current stats acy: 0.6352 precision: 0.6369 recall: 0.6407 F1_Score: 0.6360 | best test stats: 0.7222 precision: 0.8519 recall: 0.5481 F1_Score: 0.6618 
+ Epoch 179 | current stats acy: 0.6333 precision: 0.6341 recall: 0.6407 F1_Score: 0.6347 | best test stats: 0.7222 precision: 0.8519 recall: 0.5481 F1_Score: 0.6618 
+ Epoch 184 | current stats acy: 0.6352 precision: 0.6364 recall: 0.6407 F1_Score: 0.6359 | best test stats: 0.7222 precision: 0.8519 recall: 0.5481 F1_Score: 0.6618 
+ Epoch 189 | current stats acy: 0.6352 precision: 0.6364 recall: 0.6407 F1_Score: 0.6359 | best test stats: 0.7222 precision: 0.8519 recall: 0.5481 F1_Score: 0.6618 
+ Epoch 194 | current stats acy: 0.6352 precision: 0.6364 recall: 0.6407 F1_Score: 0.6359 | best test stats: 0.7222 precision: 0.8519 recall: 0.5481 F1_Score: 0.6618 
+
+	===>   NN-based attack  ./final-all-models/undefended-trainSize-1500.pth.tar
+ Epoch 199 | current stats acy: 0.6352 precision: 0.6364 recall: 0.6407 F1_Score: 0.6359 | best test stats: 0.7222 precision: 0.8519 recall: 0.5481 F1_Score: 0.6618 
+(1350, 1) (1350, 1)
+loading data
+[12 10  2 ...  9 19  3]
+total data len:  5010
+(5010, 446) (5010,)
+tr len 1350 | mia_members tr 405 val 270 te 675 | mia_nonmembers tr 405 val 270 te 675 | ref len 0 | val len 300 | test len 1000 | attack te len 0 | remaining data len 1010
+	evaluation on  ./final-all-models/undefended-trainSize-1500.pth.tar
+threshold on noise robustness, sigma: 0.002242152466367713
+		Threshold learned from the shadow set :
+		Best accuracy 0.7140740740740741 and threshold 0.982 | Best precision 0.69 and threshold 0.998 
+		Accuracy: 0.7341 | Precision 0.6791 | Recall 0.8874 | f1_score 0.7694
+threshold on noise robustness, sigma: 0.004484304932735426
+		Threshold learned from the shadow set :
+		Best accuracy 0.7118518518518518 and threshold 0.934 | Best precision 0.6947791164658634 and threshold 0.998 
+		Accuracy: 0.7252 | Precision 0.6670 | Recall 0.8993 | f1_score 0.7659
+threshold on noise robustness, sigma: 0.006726457399103139
+		Threshold learned from the shadow set :
+		Best accuracy 0.7140740740740741 and threshold 0.86 | Best precision 0.7076566125290024 and threshold 0.998 
+		Accuracy: 0.7259 | Precision 0.6631 | Recall 0.9185 | f1_score 0.7702
+threshold on noise robustness, sigma: 0.011210762331838564
+attack.py:1058: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  x_noisy = np.invert(inputs[i].astype(np.bool), out=x_sampled,
+attack.py:1059: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  where=noise.astype(np.bool)).astype(np.int32)
+/home/zitaoc/anaconda3/envs/test/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1334: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/zitaoc/anaconda3/envs/test/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1334: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+attack.py:1058: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  x_noisy = np.invert(inputs[i].astype(np.bool), out=x_sampled,
+attack.py:1059: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  where=noise.astype(np.bool)).astype(np.int32)
+attack.py:1058: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  x_noisy = np.invert(inputs[i].astype(np.bool), out=x_sampled,
+attack.py:1059: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  where=noise.astype(np.bool)).astype(np.int32)
+/home/zitaoc/anaconda3/envs/test/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1334: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/zitaoc/anaconda3/envs/test/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1334: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+attack.py:1058: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  x_noisy = np.invert(inputs[i].astype(np.bool), out=x_sampled,
+attack.py:1059: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  where=noise.astype(np.bool)).astype(np.int32)
+attack.py:1058: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  x_noisy = np.invert(inputs[i].astype(np.bool), out=x_sampled,
+attack.py:1059: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  where=noise.astype(np.bool)).astype(np.int32)
+/home/zitaoc/anaconda3/envs/test/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1334: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/zitaoc/anaconda3/envs/test/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1334: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+attack.py:1058: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  x_noisy = np.invert(inputs[i].astype(np.bool), out=x_sampled,
+attack.py:1059: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  where=noise.astype(np.bool)).astype(np.int32)
+attack.py:1058: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  x_noisy = np.invert(inputs[i].astype(np.bool), out=x_sampled,
+attack.py:1059: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  where=noise.astype(np.bool)).astype(np.int32)
+		Threshold learned from the shadow set :
+		Best accuracy 0.7133333333333334 and threshold 0.9 | Best precision 0.7235494880546075 and threshold 0.998 
+		Accuracy: 0.7289 | Precision 0.6846 | Recall 0.8489 | f1_score 0.7579
+threshold on noise robustness, sigma: 0.02242152466367713
+		Threshold learned from the shadow set :
+		Best accuracy 0.7111111111111111 and threshold 0.648 | Best precision 0.7386363636363636 and threshold 0.98 
+/home/zitaoc/anaconda3/envs/test/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1334: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/zitaoc/anaconda3/envs/test/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1334: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+attack.py:1058: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  x_noisy = np.invert(inputs[i].astype(np.bool), out=x_sampled,
+attack.py:1059: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  where=noise.astype(np.bool)).astype(np.int32)
+attack.py:1058: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  x_noisy = np.invert(inputs[i].astype(np.bool), out=x_sampled,
+attack.py:1059: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  where=noise.astype(np.bool)).astype(np.int32)
+/home/zitaoc/anaconda3/envs/test/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1334: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/zitaoc/anaconda3/envs/test/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1334: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+attack.py:1058: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  x_noisy = np.invert(inputs[i].astype(np.bool), out=x_sampled,
+attack.py:1059: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  where=noise.astype(np.bool)).astype(np.int32)
+		Accuracy: 0.7252 | Precision 0.6620 | Recall 0.9200 | f1_score 0.7700
+
+	===>   boundary attack  ./final-all-models/undefended-trainSize-1500.pth.tar
+		Accuracy: 0.7341 | Precision 0.6791 | Recall 0.8874 | f1_score 0.7694
+./final-all-models/undefended-trainSize-1500.pth.tar
+loading data
+[12 10  2 ...  9 19  3]
+total data len:  5010
+(5010, 446) (5010,)
+tr len 1350 | mia_members tr 405 val 270 te 675 | mia_nonmembers tr 405 val 270 te 675 | ref len 0 | val len 300 | test len 1000 | attack te len 0 | remaining data len 1010
+./final-all-models/selena-trainSize-1500.pth.tar | train acc 65.7037 | val acc 62.0000 | test acc 54.3000
+	evaluation on  ./final-all-models/selena-trainSize-1500.pth.tar
+	===> correctness-based, entropy-based, m-entropy-based-, confidence-based attacks  ./final-all-models/selena-trainSize-1500.pth.tar
+For membership inference attack via correctness, the attack acc is 0.557, with train acc 0.671 and test acc 0.557
+For membership inference attack via confidence, the attack acc is 0.564
+Accuracy: 0.5644 | Precision 0.5948 | Recall 0.4044 | f1_score 0.4815
+
+
+For membership inference attack via entropy, the attack acc is 0.575
+Accuracy: 0.5748 | Precision 0.5829 | Recall 0.5259 | f1_score 0.5530
+
+
+For membership inference attack via modified entropy, the attack acc is 0.564
+Accuracy: 0.5644 | Precision 0.5982 | Recall 0.3926 | f1_score 0.4741
+
+
+loading data
+[12 10  2 ...  9 19  3]
+total data len:  5010
+(5010, 446) (5010,)
+tr len 1350 | mia_members tr 405 val 270 te 675 | mia_nonmembers tr 405 val 270 te 675 | ref len 0 | val len 300 | test len 1000 | attack te len 0 | remaining data len 1010
+2022-10-17 00:53:09.766811: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-10-17 00:53:09.884090: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2022-10-17 00:53:10.300719: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2022-10-17 00:53:10.300769: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2022-10-17 00:53:10.300782: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+	evaluation on  ./final-all-models/selena-trainSize-1500.pth.tar
+	===> loss-based attack  ./final-all-models/selena-trainSize-1500.pth.tar
+	Accuracy: 0.5622 | Precision 0.5528 | Recall 0.6519 | f1_score 0.5982
+loading data
+[12 10  2 ...  9 19  3]
+total data len:  5010
+(5010, 446) (5010,)
+tr len 1350 | mia_members tr 405 val 270 te 675 | mia_nonmembers tr 405 val 270 te 675 | ref len 0 | val len 300 | test len 1000 | attack te len 0 | remaining data len 1010
+	evaluation on  ./final-all-models/selena-trainSize-1500.pth.tar
+	===> correctness-based, entropy-based, m-entropy-based-, confidence-based attacks  ./final-all-models/selena-trainSize-1500.pth.tar
+For membership inference attack via correctness, the attack acc is 0.557, with train acc 0.671 and test acc 0.557
+For membership inference attack via confidence, the attack acc is 0.528
+Accuracy: 0.5281 | Precision 0.6418 | Recall 0.1274 | f1_score 0.2126
+
+
+For membership inference attack via entropy, the attack acc is 0.510
+Accuracy: 0.5104 | Precision 0.5660 | Recall 0.0889 | f1_score 0.1536
+
+
+For membership inference attack via modified entropy, the attack acc is 0.533
+Accuracy: 0.5333 | Precision 0.6433 | Recall 0.1496 | f1_score 0.2428
+
+
+loading data
+[12 10  2 ...  9 19  3]
+total data len:  5010
+(5010, 446) (5010,)
+tr len 1350 | mia_members tr 405 val 270 te 675 | mia_nonmembers tr 405 val 270 te 675 | ref len 0 | val len 300 | test len 1000 | attack te len 0 | remaining data len 1010
+2022-10-17 00:53:16.958874: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-10-17 00:53:17.076635: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2022-10-17 00:53:17.515300: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2022-10-17 00:53:17.515354: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2022-10-17 00:53:17.515359: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+	evaluation on  ./final-all-models/selena-trainSize-1500.pth.tar
+	===> loss-based attack  ./final-all-models/selena-trainSize-1500.pth.tar
+	Accuracy: 0.5022 | Precision 0.5333 | Recall 0.0356 | f1_score 0.0667
+loading data
+[12 10  2 ...  9 19  3]
+total data len:  5010
+(5010, 446) (5010,)
+tr len 1350 | mia_members tr 405 val 270 te 675 | mia_nonmembers tr 405 val 270 te 675 | ref len 0 | val len 300 | test len 1000 | attack te len 0 | remaining data len 1010
+2022-10-17 00:53:21.456523: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-10-17 00:53:21.595758: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2022-10-17 00:53:22.044560: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2022-10-17 00:53:22.044623: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2022-10-17 00:53:22.044629: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2022-10-17 00:53:23.363096: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:980] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-10-17 00:53:23.396413: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:980] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-10-17 00:53:23.396664: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:980] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-10-17 00:53:23.397061: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-10-17 00:53:23.398546: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:980] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-10-17 00:53:23.398766: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:980] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-10-17 00:53:23.398967: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:980] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-10-17 00:53:23.399302: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:980] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-10-17 00:53:23.399527: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:980] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-10-17 00:53:23.399735: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:980] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-10-17 00:53:23.399930: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1616] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 21458 MB memory:  -> device: 0, name: NVIDIA RTX A5000, pci bus id: 0000:4b:00.0, compute capability: 8.6
+	evaluation on  ./final-all-models/selena-trainSize-1500.pth.tar
+ Epoch 4 | current stats acy: 0.5000 precision: 0.5000 recall: 0.9963 F1_Score: 0.6658 | best test stats: 0.5000 precision: 0.0000 recall: 0.0000 F1_Score: 0.0000 
+ Epoch 9 | current stats acy: 0.4926 precision: 0.4914 recall: 0.5148 F1_Score: 0.5005 | best test stats: 0.5259 precision: 0.5242 recall: 0.5244 F1_Score: 0.5219 
+ Epoch 14 | current stats acy: 0.5481 precision: 0.5387 recall: 0.6815 F1_Score: 0.6008 | best test stats: 0.5496 precision: 0.5326 recall: 0.8133 F1_Score: 0.6432 
+ Epoch 19 | current stats acy: 0.5481 precision: 0.5325 recall: 0.8000 F1_Score: 0.6389 | best test stats: 0.5496 precision: 0.5326 recall: 0.8133 F1_Score: 0.6432 
+ Epoch 24 | current stats acy: 0.5796 precision: 0.5568 recall: 0.7778 F1_Score: 0.6481 | best test stats: 0.5533 precision: 0.5387 recall: 0.7600 F1_Score: 0.6295 
+ Epoch 29 | current stats acy: 0.5444 precision: 0.5333 recall: 0.7037 F1_Score: 0.6058 | best test stats: 0.5533 precision: 0.5387 recall: 0.7600 F1_Score: 0.6295 
+ Epoch 34 | current stats acy: 0.5537 precision: 0.5481 recall: 0.6296 F1_Score: 0.5847 | best test stats: 0.5533 precision: 0.5387 recall: 0.7600 F1_Score: 0.6295 
+ Epoch 39 | current stats acy: 0.5611 precision: 0.5694 recall: 0.4741 F1_Score: 0.5156 | best test stats: 0.5533 precision: 0.5387 recall: 0.7600 F1_Score: 0.6295 
+ Epoch 44 | current stats acy: 0.5370 precision: 0.5567 recall: 0.4000 F1_Score: 0.4642 | best test stats: 0.5533 precision: 0.5387 recall: 0.7600 F1_Score: 0.6295 
+ Epoch 49 | current stats acy: 0.5352 precision: 0.5363 recall: 0.5630 F1_Score: 0.5469 | best test stats: 0.5533 precision: 0.5387 recall: 0.7600 F1_Score: 0.6295 
+ Epoch 54 | current stats acy: 0.5556 precision: 0.5517 recall: 0.6444 F1_Score: 0.5917 | best test stats: 0.5533 precision: 0.5387 recall: 0.7600 F1_Score: 0.6295 
+ Epoch 59 | current stats acy: 0.5333 precision: 0.5407 recall: 0.4889 F1_Score: 0.5120 | best test stats: 0.5533 precision: 0.5387 recall: 0.7600 F1_Score: 0.6295 
+ Epoch 64 | current stats acy: 0.5278 precision: 0.5340 recall: 0.4778 F1_Score: 0.5012 | best test stats: 0.5533 precision: 0.5387 recall: 0.7600 F1_Score: 0.6295 
+ Epoch 69 | current stats acy: 0.5222 precision: 0.5305 recall: 0.5259 F1_Score: 0.5246 | best test stats: 0.5533 precision: 0.5387 recall: 0.7600 F1_Score: 0.6295 
+ Epoch 74 | current stats acy: 0.5278 precision: 0.5324 recall: 0.5481 F1_Score: 0.5370 | best test stats: 0.5533 precision: 0.5387 recall: 0.7600 F1_Score: 0.6295 
+ Epoch 79 | current stats acy: 0.5315 precision: 0.5399 recall: 0.5111 F1_Score: 0.5211 | best test stats: 0.5533 precision: 0.5387 recall: 0.7600 F1_Score: 0.6295 
+ Epoch 84 | current stats acy: 0.5185 precision: 0.5301 recall: 0.4741 F1_Score: 0.4958 | best test stats: 0.5533 precision: 0.5387 recall: 0.7600 F1_Score: 0.6295 
+ Epoch 89 | current stats acy: 0.5278 precision: 0.5422 recall: 0.5000 F1_Score: 0.5156 | best test stats: 0.5533 precision: 0.5387 recall: 0.7600 F1_Score: 0.6295 
+ Epoch 94 | current stats acy: 0.5370 precision: 0.5463 recall: 0.5296 F1_Score: 0.5340 | best test stats: 0.5533 precision: 0.5387 recall: 0.7600 F1_Score: 0.6295 
+ Epoch 99 | current stats acy: 0.5333 precision: 0.5428 recall: 0.5259 F1_Score: 0.5304 | best test stats: 0.5533 precision: 0.5387 recall: 0.7600 F1_Score: 0.6295 
+Epoch 100 Local lr 0.000050
+ Epoch 104 | current stats acy: 0.5333 precision: 0.5428 recall: 0.5259 F1_Score: 0.5304 | best test stats: 0.5533 precision: 0.5387 recall: 0.7600 F1_Score: 0.6295 
+ Epoch 109 | current stats acy: 0.5333 precision: 0.5428 recall: 0.5259 F1_Score: 0.5304 | best test stats: 0.5533 precision: 0.5387 recall: 0.7600 F1_Score: 0.6295 
+ Epoch 114 | current stats acy: 0.5333 precision: 0.5428 recall: 0.5259 F1_Score: 0.5304 | best test stats: 0.5533 precision: 0.5387 recall: 0.7600 F1_Score: 0.6295 
+ Epoch 119 | current stats acy: 0.5333 precision: 0.5428 recall: 0.5259 F1_Score: 0.5304 | best test stats: 0.5533 precision: 0.5387 recall: 0.7600 F1_Score: 0.6295 
+ Epoch 124 | current stats acy: 0.5315 precision: 0.5411 recall: 0.5222 F1_Score: 0.5278 | best test stats: 0.5533 precision: 0.5387 recall: 0.7600 F1_Score: 0.6295 
+ Epoch 129 | current stats acy: 0.5315 precision: 0.5411 recall: 0.5222 F1_Score: 0.5278 | best test stats: 0.5533 precision: 0.5387 recall: 0.7600 F1_Score: 0.6295 
+ Epoch 134 | current stats acy: 0.5315 precision: 0.5411 recall: 0.5222 F1_Score: 0.5278 | best test stats: 0.5533 precision: 0.5387 recall: 0.7600 F1_Score: 0.6295 
+ Epoch 139 | current stats acy: 0.5296 precision: 0.5391 recall: 0.5222 F1_Score: 0.5268 | best test stats: 0.5533 precision: 0.5387 recall: 0.7600 F1_Score: 0.6295 
+ Epoch 144 | current stats acy: 0.5315 precision: 0.5410 recall: 0.5222 F1_Score: 0.5276 | best test stats: 0.5533 precision: 0.5387 recall: 0.7600 F1_Score: 0.6295 
+ Epoch 149 | current stats acy: 0.5296 precision: 0.5391 recall: 0.5222 F1_Score: 0.5268 | best test stats: 0.5533 precision: 0.5387 recall: 0.7600 F1_Score: 0.6295 
+ Epoch 154 | current stats acy: 0.5296 precision: 0.5391 recall: 0.5222 F1_Score: 0.5268 | best test stats: 0.5533 precision: 0.5387 recall: 0.7600 F1_Score: 0.6295 
+ Epoch 159 | current stats acy: 0.5296 precision: 0.5391 recall: 0.5222 F1_Score: 0.5268 | best test stats: 0.5533 precision: 0.5387 recall: 0.7600 F1_Score: 0.6295 
+ Epoch 164 | current stats acy: 0.5296 precision: 0.5391 recall: 0.5222 F1_Score: 0.5268 | best test stats: 0.5533 precision: 0.5387 recall: 0.7600 F1_Score: 0.6295 
+ Epoch 169 | current stats acy: 0.5278 precision: 0.5374 recall: 0.5222 F1_Score: 0.5261 | best test stats: 0.5533 precision: 0.5387 recall: 0.7600 F1_Score: 0.6295 
+ Epoch 174 | current stats acy: 0.5278 precision: 0.5374 recall: 0.5222 F1_Score: 0.5261 | best test stats: 0.5533 precision: 0.5387 recall: 0.7600 F1_Score: 0.6295 
+ Epoch 179 | current stats acy: 0.5278 precision: 0.5374 recall: 0.5222 F1_Score: 0.5261 | best test stats: 0.5533 precision: 0.5387 recall: 0.7600 F1_Score: 0.6295 
+ Epoch 184 | current stats acy: 0.5278 precision: 0.5374 recall: 0.5222 F1_Score: 0.5261 | best test stats: 0.5533 precision: 0.5387 recall: 0.7600 F1_Score: 0.6295 
+ Epoch 189 | current stats acy: 0.5278 precision: 0.5374 recall: 0.5222 F1_Score: 0.5261 | best test stats: 0.5533 precision: 0.5387 recall: 0.7600 F1_Score: 0.6295 
+ Epoch 194 | current stats acy: 0.5278 precision: 0.5374 recall: 0.5222 F1_Score: 0.5261 | best test stats: 0.5533 precision: 0.5387 recall: 0.7600 F1_Score: 0.6295 
+
+	===>   NN-based attack  ./final-all-models/selena-trainSize-1500.pth.tar
+ Epoch 199 | current stats acy: 0.5278 precision: 0.5374 recall: 0.5222 F1_Score: 0.5261 | best test stats: 0.5533 precision: 0.5387 recall: 0.7600 F1_Score: 0.6295 
+(1350, 1) (1350, 1)
+loading data
+[12 10  2 ...  9 19  3]
+total data len:  5010
+(5010, 446) (5010,)
+tr len 1350 | mia_members tr 405 val 270 te 675 | mia_nonmembers tr 405 val 270 te 675 | ref len 0 | val len 300 | test len 1000 | attack te len 0 | remaining data len 1010
+	evaluation on  ./final-all-models/selena-trainSize-1500.pth.tar
+threshold on noise robustness, sigma: 0.002242152466367713
+		Threshold learned from the shadow set :
+		Best accuracy 0.585925925925926 and threshold 0.998 | Best precision 0.6074074074074074 and threshold 0.998 
+		Accuracy: 0.5874 | Precision 0.6109 | Recall 0.4815 | f1_score 0.5385
+threshold on noise robustness, sigma: 0.004484304932735426
+		Threshold learned from the shadow set :
+		Best accuracy 0.5881481481481482 and threshold 0.994 | Best precision 0.6207627118644068 and threshold 0.998 
+		Accuracy: 0.5867 | Precision 0.6106 | Recall 0.4785 | f1_score 0.5365
+threshold on noise robustness, sigma: 0.006726457399103139
+		Threshold learned from the shadow set :
+		Best accuracy 0.5896296296296296 and threshold 0.994 | Best precision 0.6384039900249376 and threshold 0.998 
+		Accuracy: 0.5822 | Precision 0.6159 | Recall 0.4370 | f1_score 0.5113
+threshold on noise robustness, sigma: 0.011210762331838564
+attack.py:1058: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  x_noisy = np.invert(inputs[i].astype(np.bool), out=x_sampled,
+attack.py:1059: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  where=noise.astype(np.bool)).astype(np.int32)
+/home/zitaoc/anaconda3/envs/test/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1334: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/zitaoc/anaconda3/envs/test/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1334: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+attack.py:1058: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  x_noisy = np.invert(inputs[i].astype(np.bool), out=x_sampled,
+attack.py:1059: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  where=noise.astype(np.bool)).astype(np.int32)
+attack.py:1058: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  x_noisy = np.invert(inputs[i].astype(np.bool), out=x_sampled,
+attack.py:1059: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  where=noise.astype(np.bool)).astype(np.int32)
+/home/zitaoc/anaconda3/envs/test/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1334: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/zitaoc/anaconda3/envs/test/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1334: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+attack.py:1058: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  x_noisy = np.invert(inputs[i].astype(np.bool), out=x_sampled,
+attack.py:1059: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  where=noise.astype(np.bool)).astype(np.int32)
+attack.py:1058: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  x_noisy = np.invert(inputs[i].astype(np.bool), out=x_sampled,
+attack.py:1059: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  where=noise.astype(np.bool)).astype(np.int32)
+/home/zitaoc/anaconda3/envs/test/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1334: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/zitaoc/anaconda3/envs/test/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1334: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+attack.py:1058: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  x_noisy = np.invert(inputs[i].astype(np.bool), out=x_sampled,
+attack.py:1059: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  where=noise.astype(np.bool)).astype(np.int32)
+attack.py:1058: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  x_noisy = np.invert(inputs[i].astype(np.bool), out=x_sampled,
+attack.py:1059: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  where=noise.astype(np.bool)).astype(np.int32)
+		Threshold learned from the shadow set :
+		Best accuracy 0.5933333333333334 and threshold 0.984 | Best precision 0.6666666666666666 and threshold 0.998 
+		Accuracy: 0.5785 | Precision 0.6128 | Recall 0.4267 | f1_score 0.5031
+threshold on noise robustness, sigma: 0.02242152466367713
+		Threshold learned from the shadow set :
+		Best accuracy 0.5955555555555555 and threshold 0.93 | Best precision 0.7032967032967034 and threshold 0.998 
+/home/zitaoc/anaconda3/envs/test/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1334: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/zitaoc/anaconda3/envs/test/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1334: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+attack.py:1058: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  x_noisy = np.invert(inputs[i].astype(np.bool), out=x_sampled,
+attack.py:1059: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  where=noise.astype(np.bool)).astype(np.int32)
+attack.py:1058: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  x_noisy = np.invert(inputs[i].astype(np.bool), out=x_sampled,
+attack.py:1059: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  where=noise.astype(np.bool)).astype(np.int32)
+/home/zitaoc/anaconda3/envs/test/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1334: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/zitaoc/anaconda3/envs/test/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1334: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+attack.py:1058: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  x_noisy = np.invert(inputs[i].astype(np.bool), out=x_sampled,
+attack.py:1059: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  where=noise.astype(np.bool)).astype(np.int32)
+		Accuracy: 0.5859 | Precision 0.6208 | Recall 0.4415 | f1_score 0.5160
+
+	===>   boundary attack  ./final-all-models/selena-trainSize-1500.pth.tar
+		Accuracy: 0.5859 | Precision 0.6208 | Recall 0.4415 | f1_score 0.5160
+./final-all-models/selena-trainSize-1500.pth.tar
+loading data
+[12 10  2 ...  9 19  3]
+total data len:  5010
+(5010, 446) (5010,)
+tr len 1350 | mia_members tr 405 val 270 te 675 | mia_nonmembers tr 405 val 270 te 675 | ref len 0 | val len 300 | test len 1000 | attack te len 0 | remaining data len 1010
+./final-all-models/hamp-trainSize-1500.pth.tar | train acc 78.2222 | val acc 60.6667 | test acc 56.3000
+	evaluation on  ./final-all-models/hamp-trainSize-1500.pth.tar
+	===> correctness-based, entropy-based, m-entropy-based-, confidence-based attacks  ./final-all-models/hamp-trainSize-1500.pth.tar
+For membership inference attack via correctness, the attack acc is 0.573, with train acc 0.717 and test acc 0.572
+For membership inference attack via confidence, the attack acc is 0.547
+Accuracy: 0.5474 | Precision 0.5398 | Recall 0.6430 | f1_score 0.5869
+
+
+For membership inference attack via entropy, the attack acc is 0.503
+Accuracy: 0.5030 | Precision 0.5026 | Recall 0.5719 | f1_score 0.5350
+
+
+For membership inference attack via modified entropy, the attack acc is 0.556
+Accuracy: 0.5563 | Precision 0.5468 | Recall 0.6578 | f1_score 0.5972
+
+
+loading data
+[12 10  2 ...  9 19  3]
+total data len:  5010
+(5010, 446) (5010,)
+tr len 1350 | mia_members tr 405 val 270 te 675 | mia_nonmembers tr 405 val 270 te 675 | ref len 0 | val len 300 | test len 1000 | attack te len 0 | remaining data len 1010
+2022-10-17 00:55:16.550399: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-10-17 00:55:16.666835: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2022-10-17 00:55:17.081773: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2022-10-17 00:55:17.081826: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2022-10-17 00:55:17.081831: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+	evaluation on  ./final-all-models/hamp-trainSize-1500.pth.tar
+	===> loss-based attack  ./final-all-models/hamp-trainSize-1500.pth.tar
+	Accuracy: 0.5356 | Precision 0.5498 | Recall 0.3926 | f1_score 0.4581
+loading data
+[12 10  2 ...  9 19  3]
+total data len:  5010
+(5010, 446) (5010,)
+tr len 1350 | mia_members tr 405 val 270 te 675 | mia_nonmembers tr 405 val 270 te 675 | ref len 0 | val len 300 | test len 1000 | attack te len 0 | remaining data len 1010
+/home/zitaoc/anaconda3/envs/test/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1334: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+	evaluation on  ./final-all-models/hamp-trainSize-1500.pth.tar
+	===> correctness-based, entropy-based, m-entropy-based-, confidence-based attacks  ./final-all-models/hamp-trainSize-1500.pth.tar
+For membership inference attack via correctness, the attack acc is 0.573, with train acc 0.717 and test acc 0.572
+For membership inference attack via confidence, the attack acc is 0.499
+Accuracy: 0.4985 | Precision 0.4783 | Recall 0.0326 | f1_score 0.0610
+
+
+For membership inference attack via entropy, the attack acc is 0.500
+Accuracy: 0.5000 | Precision 0.0000 | Recall 0.0000 | f1_score 0.0000
+
+
+For membership inference attack via modified entropy, the attack acc is 0.500
+Accuracy: 0.5000 | Precision 0.5000 | Recall 0.0548 | f1_score 0.0988
+
+
+loading data
+[12 10  2 ...  9 19  3]
+total data len:  5010
+(5010, 446) (5010,)
+tr len 1350 | mia_members tr 405 val 270 te 675 | mia_nonmembers tr 405 val 270 te 675 | ref len 0 | val len 300 | test len 1000 | attack te len 0 | remaining data len 1010
+2022-10-17 00:55:24.330844: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-10-17 00:55:24.447740: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2022-10-17 00:55:24.865092: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2022-10-17 00:55:24.865143: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2022-10-17 00:55:24.865148: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+/home/zitaoc/anaconda3/envs/test/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1334: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+	evaluation on  ./final-all-models/hamp-trainSize-1500.pth.tar
+	===> loss-based attack  ./final-all-models/hamp-trainSize-1500.pth.tar
+	Accuracy: 0.5000 | Precision 0.0000 | Recall 0.0000 | f1_score 0.0000
+loading data
+[12 10  2 ...  9 19  3]
+total data len:  5010
+(5010, 446) (5010,)
+tr len 1350 | mia_members tr 405 val 270 te 675 | mia_nonmembers tr 405 val 270 te 675 | ref len 0 | val len 300 | test len 1000 | attack te len 0 | remaining data len 1010
+2022-10-17 00:55:29.208356: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-10-17 00:55:29.324992: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2022-10-17 00:55:29.736692: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2022-10-17 00:55:29.736740: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2022-10-17 00:55:29.736745: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2022-10-17 00:55:30.962994: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:980] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-10-17 00:55:30.986162: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:980] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-10-17 00:55:30.986390: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:980] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-10-17 00:55:30.986766: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-10-17 00:55:30.988495: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:980] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-10-17 00:55:30.988709: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:980] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-10-17 00:55:30.988898: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:980] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-10-17 00:55:30.989197: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:980] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-10-17 00:55:30.989400: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:980] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-10-17 00:55:30.989596: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:980] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-10-17 00:55:30.989780: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1616] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 21458 MB memory:  -> device: 0, name: NVIDIA RTX A5000, pci bus id: 0000:4b:00.0, compute capability: 8.6
+	evaluation on  ./final-all-models/hamp-trainSize-1500.pth.tar
+ Epoch 4 | current stats acy: 0.5000 precision: 0.5000 recall: 1.0000 F1_Score: 0.6667 | best test stats: 0.5000 precision: 0.5000 recall: 1.0000 F1_Score: 0.6667 
+ Epoch 9 | current stats acy: 0.5222 precision: 0.7506 recall: 0.0630 F1_Score: 0.1159 | best test stats: 0.5407 precision: 0.5359 recall: 0.6237 F1_Score: 0.5745 
+ Epoch 14 | current stats acy: 0.6019 precision: 0.6043 recall: 0.5926 F1_Score: 0.5956 | best test stats: 0.5519 precision: 0.5521 recall: 0.5496 F1_Score: 0.5496 
+ Epoch 19 | current stats acy: 0.5611 precision: 0.5598 recall: 0.5333 F1_Score: 0.5444 | best test stats: 0.5519 precision: 0.5521 recall: 0.5496 F1_Score: 0.5496 
+ Epoch 24 | current stats acy: 0.5667 precision: 0.5627 recall: 0.6148 F1_Score: 0.5857 | best test stats: 0.5519 precision: 0.5521 recall: 0.5496 F1_Score: 0.5496 
+ Epoch 29 | current stats acy: 0.5426 precision: 0.5527 recall: 0.4741 F1_Score: 0.5082 | best test stats: 0.5519 precision: 0.5521 recall: 0.5496 F1_Score: 0.5496 
+ Epoch 34 | current stats acy: 0.5500 precision: 0.5538 recall: 0.5444 F1_Score: 0.5465 | best test stats: 0.5519 precision: 0.5521 recall: 0.5496 F1_Score: 0.5496 
+ Epoch 39 | current stats acy: 0.5574 precision: 0.5570 recall: 0.5704 F1_Score: 0.5607 | best test stats: 0.5519 precision: 0.5521 recall: 0.5496 F1_Score: 0.5496 
+ Epoch 44 | current stats acy: 0.5241 precision: 0.5360 recall: 0.4333 F1_Score: 0.4767 | best test stats: 0.5519 precision: 0.5521 recall: 0.5496 F1_Score: 0.5496 
+ Epoch 49 | current stats acy: 0.5519 precision: 0.5587 recall: 0.5037 F1_Score: 0.5276 | best test stats: 0.5519 precision: 0.5521 recall: 0.5496 F1_Score: 0.5496 
+ Epoch 54 | current stats acy: 0.5222 precision: 0.5203 recall: 0.6296 F1_Score: 0.5676 | best test stats: 0.5519 precision: 0.5521 recall: 0.5496 F1_Score: 0.5496 
+ Epoch 59 | current stats acy: 0.5074 precision: 0.5094 recall: 0.5074 F1_Score: 0.5066 | best test stats: 0.5519 precision: 0.5521 recall: 0.5496 F1_Score: 0.5496 
+ Epoch 64 | current stats acy: 0.5000 precision: 0.5011 recall: 0.4741 F1_Score: 0.4861 | best test stats: 0.5519 precision: 0.5521 recall: 0.5496 F1_Score: 0.5496 
+ Epoch 69 | current stats acy: 0.5333 precision: 0.5379 recall: 0.4704 F1_Score: 0.5011 | best test stats: 0.5519 precision: 0.5521 recall: 0.5496 F1_Score: 0.5496 
+ Epoch 74 | current stats acy: 0.5074 precision: 0.5079 recall: 0.5481 F1_Score: 0.5258 | best test stats: 0.5519 precision: 0.5521 recall: 0.5496 F1_Score: 0.5496 
+ Epoch 79 | current stats acy: 0.5296 precision: 0.5311 recall: 0.5259 F1_Score: 0.5271 | best test stats: 0.5519 precision: 0.5521 recall: 0.5496 F1_Score: 0.5496 
+ Epoch 84 | current stats acy: 0.5111 precision: 0.5136 recall: 0.4519 F1_Score: 0.4789 | best test stats: 0.5519 precision: 0.5521 recall: 0.5496 F1_Score: 0.5496 
+ Epoch 89 | current stats acy: 0.5352 precision: 0.5494 recall: 0.4222 F1_Score: 0.4747 | best test stats: 0.5519 precision: 0.5521 recall: 0.5496 F1_Score: 0.5496 
+ Epoch 94 | current stats acy: 0.5074 precision: 0.5091 recall: 0.5185 F1_Score: 0.5120 | best test stats: 0.5519 precision: 0.5521 recall: 0.5496 F1_Score: 0.5496 
+ Epoch 99 | current stats acy: 0.5333 precision: 0.5322 recall: 0.5630 F1_Score: 0.5447 | best test stats: 0.5519 precision: 0.5521 recall: 0.5496 F1_Score: 0.5496 
+Epoch 100 Local lr 0.000050
+ Epoch 104 | current stats acy: 0.5315 precision: 0.5311 recall: 0.5333 F1_Score: 0.5315 | best test stats: 0.5519 precision: 0.5521 recall: 0.5496 F1_Score: 0.5496 
+ Epoch 109 | current stats acy: 0.5389 precision: 0.5408 recall: 0.5296 F1_Score: 0.5331 | best test stats: 0.5519 precision: 0.5521 recall: 0.5496 F1_Score: 0.5496 
+ Epoch 114 | current stats acy: 0.5167 precision: 0.5193 recall: 0.5222 F1_Score: 0.5194 | best test stats: 0.5519 precision: 0.5521 recall: 0.5496 F1_Score: 0.5496 
+ Epoch 119 | current stats acy: 0.5352 precision: 0.5427 recall: 0.5185 F1_Score: 0.5272 | best test stats: 0.5519 precision: 0.5521 recall: 0.5496 F1_Score: 0.5496 
+ Epoch 124 | current stats acy: 0.5370 precision: 0.5392 recall: 0.5185 F1_Score: 0.5272 | best test stats: 0.5519 precision: 0.5521 recall: 0.5496 F1_Score: 0.5496 
+ Epoch 129 | current stats acy: 0.5259 precision: 0.5319 recall: 0.5037 F1_Score: 0.5153 | best test stats: 0.5519 precision: 0.5521 recall: 0.5496 F1_Score: 0.5496 
+ Epoch 134 | current stats acy: 0.5259 precision: 0.5297 recall: 0.4963 F1_Score: 0.5121 | best test stats: 0.5519 precision: 0.5521 recall: 0.5496 F1_Score: 0.5496 
+ Epoch 139 | current stats acy: 0.5185 precision: 0.5217 recall: 0.4778 F1_Score: 0.4981 | best test stats: 0.5519 precision: 0.5521 recall: 0.5496 F1_Score: 0.5496 
+ Epoch 144 | current stats acy: 0.5333 precision: 0.5409 recall: 0.4815 F1_Score: 0.5073 | best test stats: 0.5519 precision: 0.5521 recall: 0.5496 F1_Score: 0.5496 
+ Epoch 149 | current stats acy: 0.5407 precision: 0.5488 recall: 0.5074 F1_Score: 0.5244 | best test stats: 0.5519 precision: 0.5521 recall: 0.5496 F1_Score: 0.5496 
+ Epoch 154 | current stats acy: 0.5352 precision: 0.5428 recall: 0.5185 F1_Score: 0.5274 | best test stats: 0.5519 precision: 0.5521 recall: 0.5496 F1_Score: 0.5496 
+ Epoch 159 | current stats acy: 0.5259 precision: 0.5390 recall: 0.4852 F1_Score: 0.5079 | best test stats: 0.5519 precision: 0.5521 recall: 0.5496 F1_Score: 0.5496 
+ Epoch 164 | current stats acy: 0.5148 precision: 0.5156 recall: 0.5037 F1_Score: 0.5085 | best test stats: 0.5519 precision: 0.5521 recall: 0.5496 F1_Score: 0.5496 
+ Epoch 169 | current stats acy: 0.5130 precision: 0.5186 recall: 0.4889 F1_Score: 0.5008 | best test stats: 0.5519 precision: 0.5521 recall: 0.5496 F1_Score: 0.5496 
+ Epoch 174 | current stats acy: 0.5130 precision: 0.5184 recall: 0.4889 F1_Score: 0.5020 | best test stats: 0.5519 precision: 0.5521 recall: 0.5496 F1_Score: 0.5496 
+ Epoch 179 | current stats acy: 0.5241 precision: 0.5281 recall: 0.5000 F1_Score: 0.5123 | best test stats: 0.5519 precision: 0.5521 recall: 0.5496 F1_Score: 0.5496 
+ Epoch 184 | current stats acy: 0.5204 precision: 0.5254 recall: 0.4852 F1_Score: 0.5026 | best test stats: 0.5519 precision: 0.5521 recall: 0.5496 F1_Score: 0.5496 
+ Epoch 189 | current stats acy: 0.5167 precision: 0.5250 recall: 0.4630 F1_Score: 0.4889 | best test stats: 0.5519 precision: 0.5521 recall: 0.5496 F1_Score: 0.5496 
+ Epoch 194 | current stats acy: 0.5333 precision: 0.5416 recall: 0.4963 F1_Score: 0.5161 | best test stats: 0.5519 precision: 0.5521 recall: 0.5496 F1_Score: 0.5496 
+
+	===>   NN-based attack  ./final-all-models/hamp-trainSize-1500.pth.tar
+ Epoch 199 | current stats acy: 0.5315 precision: 0.5370 recall: 0.5000 F1_Score: 0.5151 | best test stats: 0.5519 precision: 0.5521 recall: 0.5496 F1_Score: 0.5496 
+(1350, 1) (1350, 1)
+loading data
+[12 10  2 ...  9 19  3]
+total data len:  5010
+(5010, 446) (5010,)
+tr len 1350 | mia_members tr 405 val 270 te 675 | mia_nonmembers tr 405 val 270 te 675 | ref len 0 | val len 300 | test len 1000 | attack te len 0 | remaining data len 1010
+	evaluation on  ./final-all-models/hamp-trainSize-1500.pth.tar
+threshold on noise robustness, sigma: 0.002242152466367713
+		Threshold learned from the shadow set :
+		Best accuracy 0.6807407407407408 and threshold 0.996 | Best precision 0.6882716049382716 and threshold 0.996 
+		Accuracy: 0.5615 | Precision 0.5745 | Recall 0.4741 | f1_score 0.5195
+threshold on noise robustness, sigma: 0.004484304932735426
+		Threshold learned from the shadow set :
+		Best accuracy 0.677037037037037 and threshold 0.992 | Best precision 0.7066189624329159 and threshold 0.996 
+		Accuracy: 0.5630 | Precision 0.5810 | Recall 0.4519 | f1_score 0.5083
+threshold on noise robustness, sigma: 0.006726457399103139
+		Threshold learned from the shadow set :
+		Best accuracy 0.68 and threshold 0.982 | Best precision 0.7047413793103449 and threshold 0.998 
+		Accuracy: 0.5659 | Precision 0.5826 | Recall 0.4652 | f1_score 0.5173
+threshold on noise robustness, sigma: 0.011210762331838564
+attack.py:1058: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  x_noisy = np.invert(inputs[i].astype(np.bool), out=x_sampled,
+attack.py:1059: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  where=noise.astype(np.bool)).astype(np.int32)
+/home/zitaoc/anaconda3/envs/test/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1334: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/zitaoc/anaconda3/envs/test/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1334: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+attack.py:1058: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  x_noisy = np.invert(inputs[i].astype(np.bool), out=x_sampled,
+attack.py:1059: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  where=noise.astype(np.bool)).astype(np.int32)
+attack.py:1058: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  x_noisy = np.invert(inputs[i].astype(np.bool), out=x_sampled,
+attack.py:1059: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  where=noise.astype(np.bool)).astype(np.int32)
+/home/zitaoc/anaconda3/envs/test/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1334: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/zitaoc/anaconda3/envs/test/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1334: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+attack.py:1058: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  x_noisy = np.invert(inputs[i].astype(np.bool), out=x_sampled,
+attack.py:1059: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  where=noise.astype(np.bool)).astype(np.int32)
+attack.py:1058: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  x_noisy = np.invert(inputs[i].astype(np.bool), out=x_sampled,
+attack.py:1059: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  where=noise.astype(np.bool)).astype(np.int32)
+/home/zitaoc/anaconda3/envs/test/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1334: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/zitaoc/anaconda3/envs/test/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1334: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+attack.py:1058: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  x_noisy = np.invert(inputs[i].astype(np.bool), out=x_sampled,
+attack.py:1059: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  where=noise.astype(np.bool)).astype(np.int32)
+attack.py:1058: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  x_noisy = np.invert(inputs[i].astype(np.bool), out=x_sampled,
+attack.py:1059: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  where=noise.astype(np.bool)).astype(np.int32)
+		Threshold learned from the shadow set :
+		Best accuracy 0.6785185185185185 and threshold 0.952 | Best precision 0.7183770883054893 and threshold 0.996 
+		Accuracy: 0.5667 | Precision 0.5809 | Recall 0.4785 | f1_score 0.5248
+threshold on noise robustness, sigma: 0.02242152466367713
+		Threshold learned from the shadow set :
+		Best accuracy 0.6814814814814815 and threshold 0.89 | Best precision 0.7267441860465116 and threshold 0.992 
+/home/zitaoc/anaconda3/envs/test/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1334: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/zitaoc/anaconda3/envs/test/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1334: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+attack.py:1058: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  x_noisy = np.invert(inputs[i].astype(np.bool), out=x_sampled,
+attack.py:1059: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  where=noise.astype(np.bool)).astype(np.int32)
+attack.py:1058: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  x_noisy = np.invert(inputs[i].astype(np.bool), out=x_sampled,
+attack.py:1059: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  where=noise.astype(np.bool)).astype(np.int32)
+/home/zitaoc/anaconda3/envs/test/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1334: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/zitaoc/anaconda3/envs/test/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1334: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+attack.py:1058: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  x_noisy = np.invert(inputs[i].astype(np.bool), out=x_sampled,
+attack.py:1059: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  where=noise.astype(np.bool)).astype(np.int32)
+		Accuracy: 0.5704 | Precision 0.5881 | Recall 0.4696 | f1_score 0.5222
+
+	===>   boundary attack  ./final-all-models/hamp-trainSize-1500.pth.tar
+		Accuracy: 0.5704 | Precision 0.5881 | Recall 0.4696 | f1_score 0.5222
+./final-all-models/hamp-trainSize-1500.pth.tar
+loading data
+[12 10  2 ...  9 19  3]
+total data len:  5010
+(5010, 446) (5010,)
+tr len 1350 | mia_members tr 405 val 270 te 675 | mia_nonmembers tr 405 val 270 te 675 | ref len 0 | val len 300 | test len 1000 | attack te len 0 | remaining data len 1010
+	evaluation on  ./final-all-models/hamp-trainSize-1500.pth.tar
+	===> correctness-based, entropy-based, m-entropy-based-, confidence-based attacks  ./final-all-models/hamp-trainSize-1500.pth.tar
+For membership inference attack via correctness, the attack acc is 0.573, with train acc 0.717 and test acc 0.572
+For membership inference attack via confidence, the attack acc is 0.523
+Accuracy: 0.5230 | Precision 0.5258 | Recall 0.4681 | f1_score 0.4953
+
+
+For membership inference attack via entropy, the attack acc is 0.484
+Accuracy: 0.4844 | Precision 0.4607 | Recall 0.1822 | f1_score 0.2611
+
+
+For membership inference attack via modified entropy, the attack acc is 0.535
+Accuracy: 0.5348 | Precision 0.5388 | Recall 0.4830 | f1_score 0.5094
+
+
+loading data
+[12 10  2 ...  9 19  3]
+total data len:  5010
+(5010, 446) (5010,)
+tr len 1350 | mia_members tr 405 val 270 te 675 | mia_nonmembers tr 405 val 270 te 675 | ref len 0 | val len 300 | test len 1000 | attack te len 0 | remaining data len 1010
+2022-10-17 00:58:09.562900: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-10-17 00:58:09.685689: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2022-10-17 00:58:10.123811: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2022-10-17 00:58:10.123868: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2022-10-17 00:58:10.123873: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+	evaluation on  ./final-all-models/hamp-trainSize-1500.pth.tar
+	===> loss-based attack  ./final-all-models/hamp-trainSize-1500.pth.tar
+	Accuracy: 0.5356 | Precision 0.5690 | Recall 0.2933 | f1_score 0.3871
+loading data
+[12 10  2 ...  9 19  3]
+total data len:  5010
+(5010, 446) (5010,)
+tr len 1350 | mia_members tr 405 val 270 te 675 | mia_nonmembers tr 405 val 270 te 675 | ref len 0 | val len 300 | test len 1000 | attack te len 0 | remaining data len 1010
+./final-all-models/dmp-trainSize-1500.pth.tar | train acc 92.8148 | val acc 59.0000 | test acc 54.3000
+	evaluation on  ./final-all-models/dmp-trainSize-1500.pth.tar
+	===> correctness-based, entropy-based, m-entropy-based-, confidence-based attacks  ./final-all-models/dmp-trainSize-1500.pth.tar
+For membership inference attack via correctness, the attack acc is 0.686, with train acc 0.953 and test acc 0.581
+For membership inference attack via confidence, the attack acc is 0.704
+Accuracy: 0.7037 | Precision 0.6586 | Recall 0.8459 | f1_score 0.7406
+
+
+For membership inference attack via entropy, the attack acc is 0.641
+Accuracy: 0.6415 | Precision 0.6178 | Recall 0.7422 | f1_score 0.6743
+
+
+For membership inference attack via modified entropy, the attack acc is 0.701
+Accuracy: 0.7015 | Precision 0.6538 | Recall 0.8563 | f1_score 0.7415
+
+
+loading data
+[12 10  2 ...  9 19  3]
+total data len:  5010
+(5010, 446) (5010,)
+tr len 1350 | mia_members tr 405 val 270 te 675 | mia_nonmembers tr 405 val 270 te 675 | ref len 0 | val len 300 | test len 1000 | attack te len 0 | remaining data len 1010
+2022-10-17 00:58:18.047782: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-10-17 00:58:18.171718: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2022-10-17 00:58:18.613701: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2022-10-17 00:58:18.613754: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2022-10-17 00:58:18.613760: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+	evaluation on  ./final-all-models/dmp-trainSize-1500.pth.tar
+	===> loss-based attack  ./final-all-models/dmp-trainSize-1500.pth.tar
+	Accuracy: 0.7022 | Precision 0.6700 | Recall 0.7970 | f1_score 0.7280
+loading data
+[12 10  2 ...  9 19  3]
+total data len:  5010
+(5010, 446) (5010,)
+tr len 1350 | mia_members tr 405 val 270 te 675 | mia_nonmembers tr 405 val 270 te 675 | ref len 0 | val len 300 | test len 1000 | attack te len 0 | remaining data len 1010
+	evaluation on  ./final-all-models/dmp-trainSize-1500.pth.tar
+	===> correctness-based, entropy-based, m-entropy-based-, confidence-based attacks  ./final-all-models/dmp-trainSize-1500.pth.tar
+For membership inference attack via correctness, the attack acc is 0.686, with train acc 0.953 and test acc 0.581
+For membership inference attack via confidence, the attack acc is 0.654
+Accuracy: 0.6541 | Precision 0.7222 | Recall 0.5007 | f1_score 0.5914
+
+
+For membership inference attack via entropy, the attack acc is 0.624
+Accuracy: 0.6237 | Precision 0.7052 | Recall 0.4252 | f1_score 0.5305
+
+
+For membership inference attack via modified entropy, the attack acc is 0.653
+Accuracy: 0.6533 | Precision 0.7170 | Recall 0.5067 | f1_score 0.5938
+
+
+loading data
+[12 10  2 ...  9 19  3]
+total data len:  5010
+(5010, 446) (5010,)
+tr len 1350 | mia_members tr 405 val 270 te 675 | mia_nonmembers tr 405 val 270 te 675 | ref len 0 | val len 300 | test len 1000 | attack te len 0 | remaining data len 1010
+2022-10-17 00:58:25.279982: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-10-17 00:58:25.400575: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2022-10-17 00:58:25.838388: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2022-10-17 00:58:25.838447: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2022-10-17 00:58:25.838453: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+	evaluation on  ./final-all-models/dmp-trainSize-1500.pth.tar
+	===> loss-based attack  ./final-all-models/dmp-trainSize-1500.pth.tar
+	Accuracy: 0.5778 | Precision 0.7354 | Recall 0.2430 | f1_score 0.3653
+loading data
+[12 10  2 ...  9 19  3]
+total data len:  5010
+(5010, 446) (5010,)
+tr len 1350 | mia_members tr 405 val 270 te 675 | mia_nonmembers tr 405 val 270 te 675 | ref len 0 | val len 300 | test len 1000 | attack te len 0 | remaining data len 1010
+2022-10-17 00:58:29.668970: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-10-17 00:58:29.793200: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2022-10-17 00:58:30.230487: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2022-10-17 00:58:30.230541: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2022-10-17 00:58:30.230546: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2022-10-17 00:58:31.520033: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:980] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-10-17 00:58:31.543863: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:980] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-10-17 00:58:31.544098: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:980] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-10-17 00:58:31.544475: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-10-17 00:58:31.546155: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:980] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-10-17 00:58:31.546370: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:980] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-10-17 00:58:31.546564: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:980] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-10-17 00:58:31.546883: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:980] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-10-17 00:58:31.547094: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:980] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-10-17 00:58:31.547300: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:980] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-10-17 00:58:31.547490: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1616] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 21458 MB memory:  -> device: 0, name: NVIDIA RTX A5000, pci bus id: 0000:4b:00.0, compute capability: 8.6
+	evaluation on  ./final-all-models/dmp-trainSize-1500.pth.tar
+ Epoch 4 | current stats acy: 0.6778 precision: 0.8341 recall: 0.4444 F1_Score: 0.5774 | best test stats: 0.6830 precision: 0.9260 recall: 0.4030 F1_Score: 0.5552 
+ Epoch 9 | current stats acy: 0.6889 precision: 0.7605 recall: 0.5519 F1_Score: 0.6383 | best test stats: 0.7104 precision: 0.8363 recall: 0.5289 F1_Score: 0.6437 
+ Epoch 14 | current stats acy: 0.6704 precision: 0.7113 recall: 0.5741 F1_Score: 0.6335 | best test stats: 0.7104 precision: 0.8363 recall: 0.5289 F1_Score: 0.6437 
+ Epoch 19 | current stats acy: 0.6593 precision: 0.6621 recall: 0.6519 F1_Score: 0.6550 | best test stats: 0.7104 precision: 0.8363 recall: 0.5289 F1_Score: 0.6437 
+ Epoch 24 | current stats acy: 0.6370 precision: 0.7051 recall: 0.4741 F1_Score: 0.5638 | best test stats: 0.7104 precision: 0.8363 recall: 0.5289 F1_Score: 0.6437 
+ Epoch 29 | current stats acy: 0.6389 precision: 0.6736 recall: 0.5370 F1_Score: 0.5954 | best test stats: 0.7104 precision: 0.8363 recall: 0.5289 F1_Score: 0.6437 
+ Epoch 34 | current stats acy: 0.6241 precision: 0.6286 recall: 0.6185 F1_Score: 0.6209 | best test stats: 0.7104 precision: 0.8363 recall: 0.5289 F1_Score: 0.6437 
+ Epoch 39 | current stats acy: 0.6444 precision: 0.6958 recall: 0.5259 F1_Score: 0.5942 | best test stats: 0.7104 precision: 0.8363 recall: 0.5289 F1_Score: 0.6437 
+ Epoch 44 | current stats acy: 0.6204 precision: 0.6268 recall: 0.6185 F1_Score: 0.6192 | best test stats: 0.7104 precision: 0.8363 recall: 0.5289 F1_Score: 0.6437 
+ Epoch 49 | current stats acy: 0.6093 precision: 0.6300 recall: 0.5370 F1_Score: 0.5787 | best test stats: 0.7104 precision: 0.8363 recall: 0.5289 F1_Score: 0.6437 
+ Epoch 54 | current stats acy: 0.5963 precision: 0.5870 recall: 0.6593 F1_Score: 0.6196 | best test stats: 0.7104 precision: 0.8363 recall: 0.5289 F1_Score: 0.6437 
+ Epoch 59 | current stats acy: 0.5963 precision: 0.5829 recall: 0.6852 F1_Score: 0.6289 | best test stats: 0.7104 precision: 0.8363 recall: 0.5289 F1_Score: 0.6437 
+ Epoch 64 | current stats acy: 0.6185 precision: 0.6102 recall: 0.6593 F1_Score: 0.6327 | best test stats: 0.7104 precision: 0.8363 recall: 0.5289 F1_Score: 0.6437 
+ Epoch 69 | current stats acy: 0.6056 precision: 0.6074 recall: 0.6185 F1_Score: 0.6107 | best test stats: 0.7104 precision: 0.8363 recall: 0.5289 F1_Score: 0.6437 
+ Epoch 74 | current stats acy: 0.6130 precision: 0.6048 recall: 0.6593 F1_Score: 0.6300 | best test stats: 0.7104 precision: 0.8363 recall: 0.5289 F1_Score: 0.6437 
+ Epoch 79 | current stats acy: 0.6019 precision: 0.6118 recall: 0.5667 F1_Score: 0.5871 | best test stats: 0.7104 precision: 0.8363 recall: 0.5289 F1_Score: 0.6437 
+ Epoch 84 | current stats acy: 0.6130 precision: 0.6089 recall: 0.6407 F1_Score: 0.6227 | best test stats: 0.7104 precision: 0.8363 recall: 0.5289 F1_Score: 0.6437 
+ Epoch 89 | current stats acy: 0.6019 precision: 0.5942 recall: 0.6519 F1_Score: 0.6209 | best test stats: 0.7104 precision: 0.8363 recall: 0.5289 F1_Score: 0.6437 
+ Epoch 94 | current stats acy: 0.6037 precision: 0.6065 recall: 0.6000 F1_Score: 0.6015 | best test stats: 0.7104 precision: 0.8363 recall: 0.5289 F1_Score: 0.6437 
+ Epoch 99 | current stats acy: 0.6222 precision: 0.6222 recall: 0.6370 F1_Score: 0.6271 | best test stats: 0.7104 precision: 0.8363 recall: 0.5289 F1_Score: 0.6437 
+Epoch 100 Local lr 0.000050
+ Epoch 104 | current stats acy: 0.6222 precision: 0.6219 recall: 0.6407 F1_Score: 0.6287 | best test stats: 0.7104 precision: 0.8363 recall: 0.5289 F1_Score: 0.6437 
+ Epoch 109 | current stats acy: 0.6204 precision: 0.6205 recall: 0.6370 F1_Score: 0.6263 | best test stats: 0.7104 precision: 0.8363 recall: 0.5289 F1_Score: 0.6437 
+ Epoch 114 | current stats acy: 0.6204 precision: 0.6211 recall: 0.6333 F1_Score: 0.6245 | best test stats: 0.7104 precision: 0.8363 recall: 0.5289 F1_Score: 0.6437 
+ Epoch 119 | current stats acy: 0.6222 precision: 0.6234 recall: 0.6333 F1_Score: 0.6256 | best test stats: 0.7104 precision: 0.8363 recall: 0.5289 F1_Score: 0.6437 
+ Epoch 124 | current stats acy: 0.6241 precision: 0.6247 recall: 0.6370 F1_Score: 0.6280 | best test stats: 0.7104 precision: 0.8363 recall: 0.5289 F1_Score: 0.6437 
+ Epoch 129 | current stats acy: 0.6204 precision: 0.6214 recall: 0.6333 F1_Score: 0.6245 | best test stats: 0.7104 precision: 0.8363 recall: 0.5289 F1_Score: 0.6437 
+ Epoch 134 | current stats acy: 0.6185 precision: 0.6198 recall: 0.6296 F1_Score: 0.6220 | best test stats: 0.7104 precision: 0.8363 recall: 0.5289 F1_Score: 0.6437 
+ Epoch 139 | current stats acy: 0.6185 precision: 0.6198 recall: 0.6296 F1_Score: 0.6220 | best test stats: 0.7104 precision: 0.8363 recall: 0.5289 F1_Score: 0.6437 
+ Epoch 144 | current stats acy: 0.6204 precision: 0.6219 recall: 0.6296 F1_Score: 0.6231 | best test stats: 0.7104 precision: 0.8363 recall: 0.5289 F1_Score: 0.6437 
+ Epoch 149 | current stats acy: 0.6185 precision: 0.6207 recall: 0.6259 F1_Score: 0.6209 | best test stats: 0.7104 precision: 0.8363 recall: 0.5289 F1_Score: 0.6437 
+ Epoch 154 | current stats acy: 0.6185 precision: 0.6210 recall: 0.6259 F1_Score: 0.6210 | best test stats: 0.7104 precision: 0.8363 recall: 0.5289 F1_Score: 0.6437 
+ Epoch 159 | current stats acy: 0.6167 precision: 0.6196 recall: 0.6222 F1_Score: 0.6184 | best test stats: 0.7104 precision: 0.8363 recall: 0.5289 F1_Score: 0.6437 
+ Epoch 164 | current stats acy: 0.6167 precision: 0.6196 recall: 0.6222 F1_Score: 0.6184 | best test stats: 0.7104 precision: 0.8363 recall: 0.5289 F1_Score: 0.6437 
+ Epoch 169 | current stats acy: 0.6167 precision: 0.6196 recall: 0.6222 F1_Score: 0.6184 | best test stats: 0.7104 precision: 0.8363 recall: 0.5289 F1_Score: 0.6437 
+ Epoch 174 | current stats acy: 0.6167 precision: 0.6196 recall: 0.6222 F1_Score: 0.6184 | best test stats: 0.7104 precision: 0.8363 recall: 0.5289 F1_Score: 0.6437 
+ Epoch 179 | current stats acy: 0.6167 precision: 0.6196 recall: 0.6222 F1_Score: 0.6184 | best test stats: 0.7104 precision: 0.8363 recall: 0.5289 F1_Score: 0.6437 
+ Epoch 184 | current stats acy: 0.6167 precision: 0.6196 recall: 0.6222 F1_Score: 0.6184 | best test stats: 0.7104 precision: 0.8363 recall: 0.5289 F1_Score: 0.6437 
+ Epoch 189 | current stats acy: 0.6167 precision: 0.6196 recall: 0.6222 F1_Score: 0.6184 | best test stats: 0.7104 precision: 0.8363 recall: 0.5289 F1_Score: 0.6437 
+ Epoch 194 | current stats acy: 0.6167 precision: 0.6196 recall: 0.6222 F1_Score: 0.6184 | best test stats: 0.7104 precision: 0.8363 recall: 0.5289 F1_Score: 0.6437 
+
+	===>   NN-based attack  ./final-all-models/dmp-trainSize-1500.pth.tar
+ Epoch 199 | current stats acy: 0.6167 precision: 0.6196 recall: 0.6222 F1_Score: 0.6184 | best test stats: 0.7104 precision: 0.8363 recall: 0.5289 F1_Score: 0.6437 
+(1350, 1) (1350, 1)
+loading data
+[12 10  2 ...  9 19  3]
+total data len:  5010
+(5010, 446) (5010,)
+tr len 1350 | mia_members tr 405 val 270 te 675 | mia_nonmembers tr 405 val 270 te 675 | ref len 0 | val len 300 | test len 1000 | attack te len 0 | remaining data len 1010
+	evaluation on  ./final-all-models/dmp-trainSize-1500.pth.tar
+threshold on noise robustness, sigma: 0.002242152466367713
+		Threshold learned from the shadow set :
+		Best accuracy 0.6918518518518518 and threshold 0.948 | Best precision 0.6764199655765921 and threshold 0.998 
+		Accuracy: 0.7067 | Precision 0.6521 | Recall 0.8859 | f1_score 0.7513
+threshold on noise robustness, sigma: 0.004484304932735426
+		Threshold learned from the shadow set :
+		Best accuracy 0.6925925925925925 and threshold 0.886 | Best precision 0.679324894514768 and threshold 0.998 
+		Accuracy: 0.7059 | Precision 0.6504 | Recall 0.8904 | f1_score 0.7517
+threshold on noise robustness, sigma: 0.006726457399103139
+		Threshold learned from the shadow set :
+		Best accuracy 0.6903703703703704 and threshold 0.858 | Best precision 0.6873385012919897 and threshold 0.998 
+		Accuracy: 0.7096 | Precision 0.6567 | Recall 0.8785 | f1_score 0.7516
+threshold on noise robustness, sigma: 0.011210762331838564
+attack.py:1058: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  x_noisy = np.invert(inputs[i].astype(np.bool), out=x_sampled,
+attack.py:1059: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  where=noise.astype(np.bool)).astype(np.int32)
+/home/zitaoc/anaconda3/envs/test/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1334: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/zitaoc/anaconda3/envs/test/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1334: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+attack.py:1058: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  x_noisy = np.invert(inputs[i].astype(np.bool), out=x_sampled,
+attack.py:1059: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  where=noise.astype(np.bool)).astype(np.int32)
+attack.py:1058: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  x_noisy = np.invert(inputs[i].astype(np.bool), out=x_sampled,
+attack.py:1059: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  where=noise.astype(np.bool)).astype(np.int32)
+/home/zitaoc/anaconda3/envs/test/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1334: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/zitaoc/anaconda3/envs/test/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1334: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+attack.py:1058: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  x_noisy = np.invert(inputs[i].astype(np.bool), out=x_sampled,
+attack.py:1059: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  where=noise.astype(np.bool)).astype(np.int32)
+attack.py:1058: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  x_noisy = np.invert(inputs[i].astype(np.bool), out=x_sampled,
+attack.py:1059: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  where=noise.astype(np.bool)).astype(np.int32)
+/home/zitaoc/anaconda3/envs/test/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1334: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/zitaoc/anaconda3/envs/test/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1334: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+attack.py:1058: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  x_noisy = np.invert(inputs[i].astype(np.bool), out=x_sampled,
+attack.py:1059: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  where=noise.astype(np.bool)).astype(np.int32)
+attack.py:1058: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  x_noisy = np.invert(inputs[i].astype(np.bool), out=x_sampled,
+attack.py:1059: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  where=noise.astype(np.bool)).astype(np.int32)
+		Threshold learned from the shadow set :
+		Best accuracy 0.6911111111111111 and threshold 0.75 | Best precision 0.7002967359050445 and threshold 0.996 
+		Accuracy: 0.7074 | Precision 0.6518 | Recall 0.8904 | f1_score 0.7527
+threshold on noise robustness, sigma: 0.02242152466367713
+		Threshold learned from the shadow set :
+		Best accuracy 0.6888888888888889 and threshold 0.606 | Best precision 0.7168674698795181 and threshold 0.98 
+/home/zitaoc/anaconda3/envs/test/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1334: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/zitaoc/anaconda3/envs/test/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1334: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+attack.py:1058: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  x_noisy = np.invert(inputs[i].astype(np.bool), out=x_sampled,
+attack.py:1059: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  where=noise.astype(np.bool)).astype(np.int32)
+attack.py:1058: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  x_noisy = np.invert(inputs[i].astype(np.bool), out=x_sampled,
+attack.py:1059: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  where=noise.astype(np.bool)).astype(np.int32)
+/home/zitaoc/anaconda3/envs/test/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1334: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/zitaoc/anaconda3/envs/test/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1334: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+attack.py:1058: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  x_noisy = np.invert(inputs[i].astype(np.bool), out=x_sampled,
+attack.py:1059: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  where=noise.astype(np.bool)).astype(np.int32)
+		Accuracy: 0.7037 | Precision 0.6464 | Recall 0.8993 | f1_score 0.7522
+
+	===>   boundary attack  ./final-all-models/dmp-trainSize-1500.pth.tar
+		Accuracy: 0.7059 | Precision 0.6504 | Recall 0.8904 | f1_score 0.7517
+./final-all-models/dmp-trainSize-1500.pth.tar
+loading data
+[12 10  2 ...  9 19  3]
+total data len:  5010
+(5010, 446) (5010,)
+tr len 1350 | mia_members tr 405 val 270 te 675 | mia_nonmembers tr 405 val 270 te 675 | ref len 0 | val len 300 | test len 1000 | attack te len 0 | remaining data len 1010
+./final-all-models/advreg-trainSize-1500.pth.tar | train acc 69.7037 | val acc 47.3333 | test acc 48.2000
+	evaluation on  ./final-all-models/advreg-trainSize-1500.pth.tar
+	===> correctness-based, entropy-based, m-entropy-based-, confidence-based attacks  ./final-all-models/advreg-trainSize-1500.pth.tar
+For membership inference attack via correctness, the attack acc is 0.605, with train acc 0.721 and test acc 0.511
+For membership inference attack via confidence, the attack acc is 0.632
+Accuracy: 0.6319 | Precision 0.6138 | Recall 0.7111 | f1_score 0.6589
+
+
+For membership inference attack via entropy, the attack acc is 0.593
+Accuracy: 0.5933 | Precision 0.5786 | Recall 0.6874 | f1_score 0.6283
+
+
+For membership inference attack via modified entropy, the attack acc is 0.635
+Accuracy: 0.6348 | Precision 0.6161 | Recall 0.7156 | f1_score 0.6621
+
+
+loading data
+[12 10  2 ...  9 19  3]
+total data len:  5010
+(5010, 446) (5010,)
+tr len 1350 | mia_members tr 405 val 270 te 675 | mia_nonmembers tr 405 val 270 te 675 | ref len 0 | val len 300 | test len 1000 | attack te len 0 | remaining data len 1010
+2022-10-17 01:00:53.180437: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-10-17 01:00:53.301164: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2022-10-17 01:00:53.740821: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2022-10-17 01:00:53.740873: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2022-10-17 01:00:53.740886: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+	evaluation on  ./final-all-models/advreg-trainSize-1500.pth.tar
+	===> loss-based attack  ./final-all-models/advreg-trainSize-1500.pth.tar
+	Accuracy: 0.5904 | Precision 0.5968 | Recall 0.5570 | f1_score 0.5762
+loading data
+[12 10  2 ...  9 19  3]
+total data len:  5010
+(5010, 446) (5010,)
+tr len 1350 | mia_members tr 405 val 270 te 675 | mia_nonmembers tr 405 val 270 te 675 | ref len 0 | val len 300 | test len 1000 | attack te len 0 | remaining data len 1010
+/home/zitaoc/anaconda3/envs/test/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1334: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/zitaoc/anaconda3/envs/test/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1334: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/zitaoc/anaconda3/envs/test/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1334: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+	evaluation on  ./final-all-models/advreg-trainSize-1500.pth.tar
+	===> correctness-based, entropy-based, m-entropy-based-, confidence-based attacks  ./final-all-models/advreg-trainSize-1500.pth.tar
+For membership inference attack via correctness, the attack acc is 0.605, with train acc 0.721 and test acc 0.511
+For membership inference attack via confidence, the attack acc is 0.500
+Accuracy: 0.5000 | Precision 0.0000 | Recall 0.0000 | f1_score 0.0000
+
+
+For membership inference attack via entropy, the attack acc is 0.500
+Accuracy: 0.5000 | Precision 0.0000 | Recall 0.0000 | f1_score 0.0000
+
+
+For membership inference attack via modified entropy, the attack acc is 0.500
+Accuracy: 0.5000 | Precision 0.0000 | Recall 0.0000 | f1_score 0.0000
+
+
+loading data
+[12 10  2 ...  9 19  3]
+total data len:  5010
+(5010, 446) (5010,)
+tr len 1350 | mia_members tr 405 val 270 te 675 | mia_nonmembers tr 405 val 270 te 675 | ref len 0 | val len 300 | test len 1000 | attack te len 0 | remaining data len 1010
+2022-10-17 01:01:00.677627: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-10-17 01:01:00.804391: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2022-10-17 01:01:01.252310: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2022-10-17 01:01:01.252364: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2022-10-17 01:01:01.252370: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+/home/zitaoc/anaconda3/envs/test/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1334: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+	evaluation on  ./final-all-models/advreg-trainSize-1500.pth.tar
+	===> loss-based attack  ./final-all-models/advreg-trainSize-1500.pth.tar
+	Accuracy: 0.5000 | Precision 0.0000 | Recall 0.0000 | f1_score 0.0000
+loading data
+[12 10  2 ...  9 19  3]
+total data len:  5010
+(5010, 446) (5010,)
+tr len 1350 | mia_members tr 405 val 270 te 675 | mia_nonmembers tr 405 val 270 te 675 | ref len 0 | val len 300 | test len 1000 | attack te len 0 | remaining data len 1010
+2022-10-17 01:01:05.057177: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-10-17 01:01:05.179455: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2022-10-17 01:01:05.622426: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2022-10-17 01:01:05.622477: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2022-10-17 01:01:05.622482: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2022-10-17 01:01:06.935893: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:980] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-10-17 01:01:06.959711: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:980] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-10-17 01:01:06.959948: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:980] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-10-17 01:01:06.960328: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-10-17 01:01:06.961880: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:980] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-10-17 01:01:06.962091: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:980] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-10-17 01:01:06.962284: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:980] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-10-17 01:01:06.962607: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:980] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-10-17 01:01:06.962817: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:980] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-10-17 01:01:06.963394: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:980] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-10-17 01:01:06.963601: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1616] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 21456 MB memory:  -> device: 0, name: NVIDIA RTX A5000, pci bus id: 0000:4b:00.0, compute capability: 8.6
+	evaluation on  ./final-all-models/advreg-trainSize-1500.pth.tar
+ Epoch 4 | current stats acy: 0.5000 precision: 0.0000 recall: 0.0000 F1_Score: 0.0000 | best test stats: 0.5000 precision: 0.5000 recall: 1.0000 F1_Score: 0.6667 
+ Epoch 9 | current stats acy: 0.6111 precision: 0.6034 recall: 0.6407 F1_Score: 0.6192 | best test stats: 0.5881 precision: 0.5866 recall: 0.6119 F1_Score: 0.5965 
+ Epoch 14 | current stats acy: 0.6056 precision: 0.6075 recall: 0.5963 F1_Score: 0.6014 | best test stats: 0.5993 precision: 0.6603 recall: 0.4104 F1_Score: 0.5027 
+ Epoch 19 | current stats acy: 0.5889 precision: 0.5777 recall: 0.6741 F1_Score: 0.6208 | best test stats: 0.6044 precision: 0.6148 recall: 0.5733 F1_Score: 0.5904 
+ Epoch 24 | current stats acy: 0.6056 precision: 0.6137 recall: 0.5815 F1_Score: 0.5945 | best test stats: 0.6044 precision: 0.6148 recall: 0.5733 F1_Score: 0.5904 
+ Epoch 29 | current stats acy: 0.5741 precision: 0.5985 recall: 0.4741 F1_Score: 0.5252 | best test stats: 0.6044 precision: 0.6148 recall: 0.5733 F1_Score: 0.5904 
+ Epoch 34 | current stats acy: 0.5537 precision: 0.5521 recall: 0.5963 F1_Score: 0.5712 | best test stats: 0.6044 precision: 0.6148 recall: 0.5733 F1_Score: 0.5904 
+ Epoch 39 | current stats acy: 0.5574 precision: 0.5417 recall: 0.7444 F1_Score: 0.6257 | best test stats: 0.6044 precision: 0.6148 recall: 0.5733 F1_Score: 0.5904 
+ Epoch 44 | current stats acy: 0.5759 precision: 0.6079 recall: 0.4370 F1_Score: 0.5046 | best test stats: 0.6044 precision: 0.6148 recall: 0.5733 F1_Score: 0.5904 
+ Epoch 49 | current stats acy: 0.5556 precision: 0.5486 recall: 0.6407 F1_Score: 0.5896 | best test stats: 0.6044 precision: 0.6148 recall: 0.5733 F1_Score: 0.5904 
+ Epoch 54 | current stats acy: 0.5796 precision: 0.5877 recall: 0.5296 F1_Score: 0.5547 | best test stats: 0.6044 precision: 0.6148 recall: 0.5733 F1_Score: 0.5904 
+ Epoch 59 | current stats acy: 0.5370 precision: 0.5312 recall: 0.6370 F1_Score: 0.5777 | best test stats: 0.6044 precision: 0.6148 recall: 0.5733 F1_Score: 0.5904 
+ Epoch 64 | current stats acy: 0.5778 precision: 0.6025 recall: 0.4704 F1_Score: 0.5257 | best test stats: 0.6044 precision: 0.6148 recall: 0.5733 F1_Score: 0.5904 
+ Epoch 69 | current stats acy: 0.5704 precision: 0.5737 recall: 0.5630 F1_Score: 0.5650 | best test stats: 0.6044 precision: 0.6148 recall: 0.5733 F1_Score: 0.5904 
+ Epoch 74 | current stats acy: 0.5444 precision: 0.5416 recall: 0.5963 F1_Score: 0.5665 | best test stats: 0.6044 precision: 0.6148 recall: 0.5733 F1_Score: 0.5904 
+ Epoch 79 | current stats acy: 0.5537 precision: 0.5521 recall: 0.5778 F1_Score: 0.5634 | best test stats: 0.6044 precision: 0.6148 recall: 0.5733 F1_Score: 0.5904 
+ Epoch 84 | current stats acy: 0.5648 precision: 0.5756 recall: 0.5111 F1_Score: 0.5382 | best test stats: 0.6044 precision: 0.6148 recall: 0.5733 F1_Score: 0.5904 
+ Epoch 89 | current stats acy: 0.5704 precision: 0.5758 recall: 0.5370 F1_Score: 0.5536 | best test stats: 0.6044 precision: 0.6148 recall: 0.5733 F1_Score: 0.5904 
+ Epoch 94 | current stats acy: 0.5426 precision: 0.5371 recall: 0.6333 F1_Score: 0.5788 | best test stats: 0.6044 precision: 0.6148 recall: 0.5733 F1_Score: 0.5904 
+ Epoch 99 | current stats acy: 0.5593 precision: 0.5631 recall: 0.5519 F1_Score: 0.5556 | best test stats: 0.6044 precision: 0.6148 recall: 0.5733 F1_Score: 0.5904 
+Epoch 100 Local lr 0.000050
+ Epoch 104 | current stats acy: 0.5574 precision: 0.5633 recall: 0.5259 F1_Score: 0.5417 | best test stats: 0.6044 precision: 0.6148 recall: 0.5733 F1_Score: 0.5904 
+ Epoch 109 | current stats acy: 0.5537 precision: 0.5609 recall: 0.5148 F1_Score: 0.5347 | best test stats: 0.6044 precision: 0.6148 recall: 0.5733 F1_Score: 0.5904 
+ Epoch 114 | current stats acy: 0.5537 precision: 0.5610 recall: 0.5222 F1_Score: 0.5386 | best test stats: 0.6044 precision: 0.6148 recall: 0.5733 F1_Score: 0.5904 
+ Epoch 119 | current stats acy: 0.5556 precision: 0.5615 recall: 0.5296 F1_Score: 0.5432 | best test stats: 0.6044 precision: 0.6148 recall: 0.5733 F1_Score: 0.5904 
+ Epoch 124 | current stats acy: 0.5519 precision: 0.5578 recall: 0.5222 F1_Score: 0.5372 | best test stats: 0.6044 precision: 0.6148 recall: 0.5733 F1_Score: 0.5904 
+ Epoch 129 | current stats acy: 0.5556 precision: 0.5607 recall: 0.5333 F1_Score: 0.5450 | best test stats: 0.6044 precision: 0.6148 recall: 0.5733 F1_Score: 0.5904 
+ Epoch 134 | current stats acy: 0.5593 precision: 0.5655 recall: 0.5333 F1_Score: 0.5470 | best test stats: 0.6044 precision: 0.6148 recall: 0.5733 F1_Score: 0.5904 
+ Epoch 139 | current stats acy: 0.5593 precision: 0.5655 recall: 0.5333 F1_Score: 0.5470 | best test stats: 0.6044 precision: 0.6148 recall: 0.5733 F1_Score: 0.5904 
+ Epoch 144 | current stats acy: 0.5593 precision: 0.5651 recall: 0.5333 F1_Score: 0.5469 | best test stats: 0.6044 precision: 0.6148 recall: 0.5733 F1_Score: 0.5904 
+ Epoch 149 | current stats acy: 0.5593 precision: 0.5654 recall: 0.5296 F1_Score: 0.5452 | best test stats: 0.6044 precision: 0.6148 recall: 0.5733 F1_Score: 0.5904 
+ Epoch 154 | current stats acy: 0.5556 precision: 0.5614 recall: 0.5296 F1_Score: 0.5431 | best test stats: 0.6044 precision: 0.6148 recall: 0.5733 F1_Score: 0.5904 
+ Epoch 159 | current stats acy: 0.5556 precision: 0.5615 recall: 0.5296 F1_Score: 0.5430 | best test stats: 0.6044 precision: 0.6148 recall: 0.5733 F1_Score: 0.5904 
+ Epoch 164 | current stats acy: 0.5537 precision: 0.5596 recall: 0.5259 F1_Score: 0.5401 | best test stats: 0.6044 precision: 0.6148 recall: 0.5733 F1_Score: 0.5904 
+ Epoch 169 | current stats acy: 0.5537 precision: 0.5596 recall: 0.5259 F1_Score: 0.5401 | best test stats: 0.6044 precision: 0.6148 recall: 0.5733 F1_Score: 0.5904 
+ Epoch 174 | current stats acy: 0.5556 precision: 0.5612 recall: 0.5296 F1_Score: 0.5429 | best test stats: 0.6044 precision: 0.6148 recall: 0.5733 F1_Score: 0.5904 
+ Epoch 179 | current stats acy: 0.5537 precision: 0.5596 recall: 0.5259 F1_Score: 0.5402 | best test stats: 0.6044 precision: 0.6148 recall: 0.5733 F1_Score: 0.5904 
+ Epoch 184 | current stats acy: 0.5537 precision: 0.5596 recall: 0.5259 F1_Score: 0.5402 | best test stats: 0.6044 precision: 0.6148 recall: 0.5733 F1_Score: 0.5904 
+ Epoch 189 | current stats acy: 0.5537 precision: 0.5596 recall: 0.5259 F1_Score: 0.5402 | best test stats: 0.6044 precision: 0.6148 recall: 0.5733 F1_Score: 0.5904 
+ Epoch 194 | current stats acy: 0.5519 precision: 0.5579 recall: 0.5259 F1_Score: 0.5392 | best test stats: 0.6044 precision: 0.6148 recall: 0.5733 F1_Score: 0.5904 
+
+	===>   NN-based attack  ./final-all-models/advreg-trainSize-1500.pth.tar
+ Epoch 199 | current stats acy: 0.5556 precision: 0.5615 recall: 0.5296 F1_Score: 0.5430 | best test stats: 0.6044 precision: 0.6148 recall: 0.5733 F1_Score: 0.5904 
+(1350, 1) (1350, 1)
+loading data
+[12 10  2 ...  9 19  3]
+total data len:  5010
+(5010, 446) (5010,)
+tr len 1350 | mia_members tr 405 val 270 te 675 | mia_nonmembers tr 405 val 270 te 675 | ref len 0 | val len 300 | test len 1000 | attack te len 0 | remaining data len 1010
+	evaluation on  ./final-all-models/advreg-trainSize-1500.pth.tar
+threshold on noise robustness, sigma: 0.002242152466367713
+		Threshold learned from the shadow set :
+		Best accuracy 0.6155555555555555 and threshold 0.952 | Best precision 0.630648330058939 and threshold 0.996 
+		Accuracy: 0.5956 | Precision 0.5944 | Recall 0.6015 | f1_score 0.5979
+threshold on noise robustness, sigma: 0.004484304932735426
+		Threshold learned from the shadow set :
+		Best accuracy 0.617037037037037 and threshold 0.862 | Best precision 0.6415525114155252 and threshold 0.996 
+		Accuracy: 0.6030 | Precision 0.5983 | Recall 0.6267 | f1_score 0.6122
+threshold on noise robustness, sigma: 0.006726457399103139
+		Threshold learned from the shadow set :
+		Best accuracy 0.6192592592592593 and threshold 0.888 | Best precision 0.6460396039603961 and threshold 0.994 
+		Accuracy: 0.6007 | Precision 0.6033 | Recall 0.5881 | f1_score 0.5956
+threshold on noise robustness, sigma: 0.011210762331838564
+attack.py:1058: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  x_noisy = np.invert(inputs[i].astype(np.bool), out=x_sampled,
+attack.py:1059: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  where=noise.astype(np.bool)).astype(np.int32)
+/home/zitaoc/anaconda3/envs/test/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1334: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/zitaoc/anaconda3/envs/test/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1334: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+attack.py:1058: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  x_noisy = np.invert(inputs[i].astype(np.bool), out=x_sampled,
+attack.py:1059: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  where=noise.astype(np.bool)).astype(np.int32)
+attack.py:1058: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  x_noisy = np.invert(inputs[i].astype(np.bool), out=x_sampled,
+attack.py:1059: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  where=noise.astype(np.bool)).astype(np.int32)
+/home/zitaoc/anaconda3/envs/test/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1334: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/zitaoc/anaconda3/envs/test/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1334: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+attack.py:1058: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  x_noisy = np.invert(inputs[i].astype(np.bool), out=x_sampled,
+attack.py:1059: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  where=noise.astype(np.bool)).astype(np.int32)
+attack.py:1058: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  x_noisy = np.invert(inputs[i].astype(np.bool), out=x_sampled,
+attack.py:1059: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  where=noise.astype(np.bool)).astype(np.int32)
+/home/zitaoc/anaconda3/envs/test/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1334: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/zitaoc/anaconda3/envs/test/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1334: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+attack.py:1058: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  x_noisy = np.invert(inputs[i].astype(np.bool), out=x_sampled,
+attack.py:1059: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  where=noise.astype(np.bool)).astype(np.int32)
+attack.py:1058: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  x_noisy = np.invert(inputs[i].astype(np.bool), out=x_sampled,
+attack.py:1059: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  where=noise.astype(np.bool)).astype(np.int32)
+		Threshold learned from the shadow set :
+		Best accuracy 0.6185185185185185 and threshold 0.802 | Best precision 0.6479591836734694 and threshold 0.986 
+		Accuracy: 0.5956 | Precision 0.5970 | Recall 0.5881 | f1_score 0.5925
+threshold on noise robustness, sigma: 0.02242152466367713
+		Threshold learned from the shadow set :
+		Best accuracy 0.6177777777777778 and threshold 0.674 | Best precision 0.6493506493506493 and threshold 0.998 
+/home/zitaoc/anaconda3/envs/test/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1334: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/zitaoc/anaconda3/envs/test/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1334: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+attack.py:1058: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  x_noisy = np.invert(inputs[i].astype(np.bool), out=x_sampled,
+attack.py:1059: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  where=noise.astype(np.bool)).astype(np.int32)
+attack.py:1058: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  x_noisy = np.invert(inputs[i].astype(np.bool), out=x_sampled,
+attack.py:1059: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  where=noise.astype(np.bool)).astype(np.int32)
+/home/zitaoc/anaconda3/envs/test/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1334: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/zitaoc/anaconda3/envs/test/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1334: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+attack.py:1058: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  x_noisy = np.invert(inputs[i].astype(np.bool), out=x_sampled,
+attack.py:1059: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  where=noise.astype(np.bool)).astype(np.int32)
+		Accuracy: 0.5956 | Precision 0.5947 | Recall 0.6000 | f1_score 0.5973
+
+	===>   boundary attack  ./final-all-models/advreg-trainSize-1500.pth.tar
+		Accuracy: 0.6007 | Precision 0.6033 | Recall 0.5881 | f1_score 0.5956
+./final-all-models/advreg-trainSize-1500.pth.tar
+loading data
+[12 10  2 ...  9 19  3]
+total data len:  5010
+(5010, 446) (5010,)
+tr len 1350 | mia_members tr 405 val 270 te 675 | mia_nonmembers tr 405 val 270 te 675 | ref len 0 | val len 300 | test len 1000 | attack te len 0 | remaining data len 1010
+2022-10-17 01:03:06.447005: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-10-17 01:03:06.567362: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2022-10-17 01:03:06.997507: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2022-10-17 01:03:06.997558: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2022-10-17 01:03:06.997564: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2022-10-17 01:03:07.357023: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-10-17 01:03:07.359186: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:980] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-10-17 01:03:07.386999: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:980] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-10-17 01:03:07.387252: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:980] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-10-17 01:03:07.695931: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:980] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-10-17 01:03:07.696194: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:980] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-10-17 01:03:07.696400: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:980] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-10-17 01:03:07.696602: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1616] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 7276 MB memory:  -> device: 0, name: NVIDIA RTX A5000, pci bus id: 0000:01:00.0, compute capability: 8.6
+2022-10-17 01:03:07.699951: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:354] MLIR V1 optimization pass is not enabled
+2022-10-17 01:03:08.038399: I tensorflow/stream_executor/cuda/cuda_blas.cc:1614] TensorFloat-32 will be used for the matrix multiplication. This will only be logged once.
+attack.py:512: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/home/zitaoc/anaconda3/envs/test/lib/python3.8/site-packages/keras/optimizers/optimizer_v2/gradient_descent.py:111: UserWarning: The `lr` argument is deprecated, use `learning_rate` instead.
+  super().__init__(name, **kwargs)
+/home/zitaoc/anaconda3/envs/test/lib/python3.8/site-packages/keras/engine/training_v1.py:2332: UserWarning: `Model.state_updates` will be removed in a future version. This property should not be used in TensorFlow 2.0, as `updates` are applied automatically.
+  updates = self.state_updates
+attack.py:665: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  label_mask_array=np.zeros([1,user_label_dim],dtype=np.float)
+attack.py:667: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  result_array=np.zeros(f_evaluate.shape,dtype=np.float)
+attack.py:668: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  result_array_logits=np.zeros(f_evaluate.shape,dtype=np.float)
+/home/zitaoc/anaconda3/envs/test/lib/python3.8/site-packages/keras/engine/training_v1.py:2356: UserWarning: `Model.state_updates` will be removed in a future version. This property should not be used in TensorFlow 2.0, as `updates` are applied automatically.
+  updates=self.state_updates,
+	evaluation on  ./final-all-models/undefended-trainSize-1500.pth.tar
+selected number of members and non-members are:  1350 1350
+dataset shape information:  (2700, 30) (2700, 30) (2700,) 1350
+f evaluate shape: (2700, 30)
+f evaluate logits shape: (2700, 30)
+Loading defense model...
+
+evaluate loss on model: 0.6763651744524638
+==>	evaluate the NN attack accuracy on model (undefended data): 0.6511111
+test sample id: 0
+test sample id: 100
+test sample id: 200
+test sample id: 300
+test sample id: 400
+test sample id: 500
+test sample id: 600
+test sample id: 700
+test sample id: 800
+test sample id: 900
+test sample id: 1000
+test sample id: 1100
+test sample id: 1200
+test sample id: 1300
+test sample id: 1400
+failed sample for label not same for id: 1492,c3:0.1 not add noise
+test sample id: 1500
+test sample id: 1600
+test sample id: 1700
+max iteration reached with id: 1735, max score: 0.3637388050556183, prediction_score: [[0.4608135]], c3: 0.1, not add noise
+test sample id: 1800
+test sample id: 1900
+max iteration reached with id: 1911, max score: 0.2725401818752289, prediction_score: [[0.46302244]], c3: 0.1, not add noise
+test sample id: 2000
+test sample id: 2100
+max iteration reached with id: 2142, max score: 0.26087093353271484, prediction_score: [[0.46375746]], c3: 0.1, not add noise
+test sample id: 2200
+max iteration reached with id: 2200, max score: 0.3322239816188812, prediction_score: [[0.4617497]], c3: 0.1, not add noise
+test sample id: 2300
+max iteration reached with id: 2395, max score: 0.33322638273239136, prediction_score: [[0.46246895]], c3: 0.1, not add noise
+test sample id: 2400
+test sample id: 2500
+test sample id: 2600
+Success fraction: 0.9996296296296296
+evaluate loss on model: 0.6932245526490388
+
+====> evaluate accuracy on model: 0.50814813
+loading data
+[12 10  2 ...  9 19  3]
+total data len:  5010
+(5010, 446) (5010,)
+tr len 1350 | mia_members tr 405 val 270 te 675 | mia_nonmembers tr 405 val 270 te 675 | ref len 0 | val len 300 | test len 1000 | attack te len 0 | remaining data len 1010
+./final-all-models/undefended-trainSize-1500.pth.tar | train acc 95.7037 | val acc 62.0000 | test acc 56.1000
+	evaluation on  ./final-all-models/undefended-trainSize-1500.pth.tar
+	====> loading MemGuard's modified output
+	===> correctness-based, entropy-based, m-entropy-based-, confidence-based attacks  ./final-all-models/undefended-trainSize-1500.pth.tar
+For membership inference attack via correctness, the attack acc is 0.690, with train acc 0.970 and test acc 0.591
+For membership inference attack via confidence, the attack acc is 0.696
+Accuracy: 0.6956 | Precision 0.6457 | Recall 0.8667 | f1_score 0.7400
+
+
+For membership inference attack via entropy, the attack acc is 0.581
+Accuracy: 0.5807 | Precision 0.5762 | Recall 0.6104 | f1_score 0.5928
+
+
+For membership inference attack via modified entropy, the attack acc is 0.688
+Accuracy: 0.6881 | Precision 0.6328 | Recall 0.8963 | f1_score 0.7419
+
+
+loading data
+[12 10  2 ...  9 19  3]
+total data len:  5010
+(5010, 446) (5010,)
+tr len 1350 | mia_members tr 405 val 270 te 675 | mia_nonmembers tr 405 val 270 te 675 | ref len 0 | val len 300 | test len 1000 | attack te len 0 | remaining data len 1010
+2022-10-17 01:35:54.502803: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-10-17 01:35:54.657229: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2022-10-17 01:35:55.286498: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2022-10-17 01:35:55.286582: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2022-10-17 01:35:55.286592: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+	evaluation on  ./final-all-models/undefended-trainSize-1500.pth.tar
+loading MemGuard's modified output
+	===> loss-based attack  ./final-all-models/undefended-trainSize-1500.pth.tar
+	Accuracy: 0.7274 | Precision 0.6907 | Recall 0.8237 | f1_score 0.7514
+loading data
+[12 10  2 ...  9 19  3]
+total data len:  5010
+(5010, 446) (5010,)
+tr len 1350 | mia_members tr 405 val 270 te 675 | mia_nonmembers tr 405 val 270 te 675 | ref len 0 | val len 300 | test len 1000 | attack te len 0 | remaining data len 1010
+/home/zitaoc/anaconda3/envs/test/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1334: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/zitaoc/anaconda3/envs/test/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1334: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+	evaluation on  ./final-all-models/undefended-trainSize-1500.pth.tar
+	====> loading MemGuard's modified output
+	===> correctness-based, entropy-based, m-entropy-based-, confidence-based attacks  ./final-all-models/undefended-trainSize-1500.pth.tar
+For membership inference attack via correctness, the attack acc is 0.690, with train acc 0.970 and test acc 0.591
+For membership inference attack via confidence, the attack acc is 0.500
+Accuracy: 0.5000 | Precision 0.0000 | Recall 0.0000 | f1_score 0.0000
+
+
+For membership inference attack via entropy, the attack acc is 0.499
+Accuracy: 0.4993 | Precision 0.0000 | Recall 0.0000 | f1_score 0.0000
+
+
+For membership inference attack via modified entropy, the attack acc is 0.500
+Accuracy: 0.5000 | Precision 0.0000 | Recall 0.0000 | f1_score 0.0000
+
+
+loading data
+[12 10  2 ...  9 19  3]
+total data len:  5010
+(5010, 446) (5010,)
+tr len 1350 | mia_members tr 405 val 270 te 675 | mia_nonmembers tr 405 val 270 te 675 | ref len 0 | val len 300 | test len 1000 | attack te len 0 | remaining data len 1010
+2022-10-17 01:36:01.984536: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-10-17 01:36:02.102728: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2022-10-17 01:36:02.529991: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2022-10-17 01:36:02.530045: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2022-10-17 01:36:02.530050: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+	evaluation on  ./final-all-models/undefended-trainSize-1500.pth.tar
+loading MemGuard's modified output
+	===> loss-based attack  ./final-all-models/undefended-trainSize-1500.pth.tar
+	Accuracy: 0.6230 | Precision 0.7562 | Recall 0.3630 | f1_score 0.4905
+loading data
+[12 10  2 ...  9 19  3]
+total data len:  5010
+(5010, 446) (5010,)
+tr len 1350 | mia_members tr 405 val 270 te 675 | mia_nonmembers tr 405 val 270 te 675 | ref len 0 | val len 300 | test len 1000 | attack te len 0 | remaining data len 1010
+2022-10-17 01:36:06.378764: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-10-17 01:36:06.525875: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2022-10-17 01:36:06.980150: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2022-10-17 01:36:06.980201: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2022-10-17 01:36:06.980207: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2022-10-17 01:36:08.206964: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:980] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-10-17 01:36:08.230608: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:980] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-10-17 01:36:08.230842: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:980] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-10-17 01:36:08.231219: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-10-17 01:36:08.233042: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:980] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-10-17 01:36:08.233249: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:980] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-10-17 01:36:08.233440: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:980] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-10-17 01:36:08.233739: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:980] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-10-17 01:36:08.233943: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:980] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-10-17 01:36:08.234136: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:980] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-10-17 01:36:08.234320: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1616] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 21458 MB memory:  -> device: 0, name: NVIDIA RTX A5000, pci bus id: 0000:4b:00.0, compute capability: 8.6
+	evaluation on  ./final-all-models/undefended-trainSize-1500.pth.tar
+ Epoch 4 | current stats acy: 0.6222 precision: 0.6416 recall: 0.5630 F1_Score: 0.5979 | best test stats: 0.6289 precision: 0.6577 recall: 0.5378 F1_Score: 0.5882 
+ Epoch 9 | current stats acy: 0.6852 precision: 0.8729 recall: 0.4370 F1_Score: 0.5800 | best test stats: 0.6904 precision: 0.9402 recall: 0.4104 F1_Score: 0.5651 
+ Epoch 14 | current stats acy: 0.6704 precision: 0.7257 recall: 0.5593 F1_Score: 0.6283 | best test stats: 0.6904 precision: 0.9402 recall: 0.4104 F1_Score: 0.5651 
+ Epoch 19 | current stats acy: 0.6556 precision: 0.7250 recall: 0.5111 F1_Score: 0.5964 | best test stats: 0.6904 precision: 0.9402 recall: 0.4104 F1_Score: 0.5651 
+ Epoch 24 | current stats acy: 0.6204 precision: 0.6347 recall: 0.5852 F1_Score: 0.6065 | best test stats: 0.6904 precision: 0.9402 recall: 0.4104 F1_Score: 0.5651 
+ Epoch 29 | current stats acy: 0.6148 precision: 0.6138 recall: 0.6259 F1_Score: 0.6184 | best test stats: 0.6904 precision: 0.9402 recall: 0.4104 F1_Score: 0.5651 
+ Epoch 34 | current stats acy: 0.6093 precision: 0.6185 recall: 0.5852 F1_Score: 0.5986 | best test stats: 0.6904 precision: 0.9402 recall: 0.4104 F1_Score: 0.5651 
+ Epoch 39 | current stats acy: 0.5870 precision: 0.5881 recall: 0.5926 F1_Score: 0.5888 | best test stats: 0.6904 precision: 0.9402 recall: 0.4104 F1_Score: 0.5651 
+ Epoch 44 | current stats acy: 0.6111 precision: 0.6190 recall: 0.5815 F1_Score: 0.5982 | best test stats: 0.6904 precision: 0.9402 recall: 0.4104 F1_Score: 0.5651 
+ Epoch 49 | current stats acy: 0.6037 precision: 0.5968 recall: 0.6370 F1_Score: 0.6148 | best test stats: 0.6904 precision: 0.9402 recall: 0.4104 F1_Score: 0.5651 
+ Epoch 54 | current stats acy: 0.6111 precision: 0.6176 recall: 0.5926 F1_Score: 0.6033 | best test stats: 0.6904 precision: 0.9402 recall: 0.4104 F1_Score: 0.5651 
+ Epoch 59 | current stats acy: 0.6000 precision: 0.6058 recall: 0.5852 F1_Score: 0.5919 | best test stats: 0.6904 precision: 0.9402 recall: 0.4104 F1_Score: 0.5651 
+ Epoch 64 | current stats acy: 0.6056 precision: 0.6062 recall: 0.6111 F1_Score: 0.6061 | best test stats: 0.6904 precision: 0.9402 recall: 0.4104 F1_Score: 0.5651 
+ Epoch 69 | current stats acy: 0.6019 precision: 0.5925 recall: 0.6593 F1_Score: 0.6229 | best test stats: 0.6904 precision: 0.9402 recall: 0.4104 F1_Score: 0.5651 
+ Epoch 74 | current stats acy: 0.5944 precision: 0.5980 recall: 0.5778 F1_Score: 0.5858 | best test stats: 0.6904 precision: 0.9402 recall: 0.4104 F1_Score: 0.5651 
+ Epoch 79 | current stats acy: 0.6019 precision: 0.6131 recall: 0.5630 F1_Score: 0.5848 | best test stats: 0.6904 precision: 0.9402 recall: 0.4104 F1_Score: 0.5651 
+ Epoch 84 | current stats acy: 0.5833 precision: 0.5850 recall: 0.5852 F1_Score: 0.5822 | best test stats: 0.6904 precision: 0.9402 recall: 0.4104 F1_Score: 0.5651 
+ Epoch 89 | current stats acy: 0.5759 precision: 0.5707 recall: 0.6111 F1_Score: 0.5888 | best test stats: 0.6904 precision: 0.9402 recall: 0.4104 F1_Score: 0.5651 
+ Epoch 94 | current stats acy: 0.6037 precision: 0.6084 recall: 0.5889 F1_Score: 0.5961 | best test stats: 0.6904 precision: 0.9402 recall: 0.4104 F1_Score: 0.5651 
+ Epoch 99 | current stats acy: 0.5778 precision: 0.5745 recall: 0.6074 F1_Score: 0.5888 | best test stats: 0.6904 precision: 0.9402 recall: 0.4104 F1_Score: 0.5651 
+Epoch 100 Local lr 0.000050
+ Epoch 104 | current stats acy: 0.5778 precision: 0.5767 recall: 0.5963 F1_Score: 0.5840 | best test stats: 0.6904 precision: 0.9402 recall: 0.4104 F1_Score: 0.5651 
+ Epoch 109 | current stats acy: 0.5759 precision: 0.5768 recall: 0.5815 F1_Score: 0.5772 | best test stats: 0.6904 precision: 0.9402 recall: 0.4104 F1_Score: 0.5651 
+ Epoch 114 | current stats acy: 0.5815 precision: 0.5812 recall: 0.5926 F1_Score: 0.5848 | best test stats: 0.6904 precision: 0.9402 recall: 0.4104 F1_Score: 0.5651 
+ Epoch 119 | current stats acy: 0.5815 precision: 0.5812 recall: 0.5926 F1_Score: 0.5848 | best test stats: 0.6904 precision: 0.9402 recall: 0.4104 F1_Score: 0.5651 
+ Epoch 124 | current stats acy: 0.5833 precision: 0.5835 recall: 0.5926 F1_Score: 0.5859 | best test stats: 0.6904 precision: 0.9402 recall: 0.4104 F1_Score: 0.5651 
+ Epoch 129 | current stats acy: 0.5833 precision: 0.5853 recall: 0.5889 F1_Score: 0.5848 | best test stats: 0.6904 precision: 0.9402 recall: 0.4104 F1_Score: 0.5651 
+ Epoch 134 | current stats acy: 0.5889 precision: 0.5901 recall: 0.5963 F1_Score: 0.5910 | best test stats: 0.6904 precision: 0.9402 recall: 0.4104 F1_Score: 0.5651 
+ Epoch 139 | current stats acy: 0.5944 precision: 0.5952 recall: 0.6037 F1_Score: 0.5971 | best test stats: 0.6904 precision: 0.9402 recall: 0.4104 F1_Score: 0.5651 
+ Epoch 144 | current stats acy: 0.5926 precision: 0.5936 recall: 0.6000 F1_Score: 0.5944 | best test stats: 0.6904 precision: 0.9402 recall: 0.4104 F1_Score: 0.5651 
+ Epoch 149 | current stats acy: 0.5926 precision: 0.5936 recall: 0.6000 F1_Score: 0.5944 | best test stats: 0.6904 precision: 0.9402 recall: 0.4104 F1_Score: 0.5651 
+ Epoch 154 | current stats acy: 0.5889 precision: 0.5894 recall: 0.6000 F1_Score: 0.5923 | best test stats: 0.6904 precision: 0.9402 recall: 0.4104 F1_Score: 0.5651 
+ Epoch 159 | current stats acy: 0.5889 precision: 0.5898 recall: 0.5963 F1_Score: 0.5908 | best test stats: 0.6904 precision: 0.9402 recall: 0.4104 F1_Score: 0.5651 
+ Epoch 164 | current stats acy: 0.5889 precision: 0.5898 recall: 0.5963 F1_Score: 0.5908 | best test stats: 0.6904 precision: 0.9402 recall: 0.4104 F1_Score: 0.5651 
+ Epoch 169 | current stats acy: 0.5889 precision: 0.5898 recall: 0.5963 F1_Score: 0.5908 | best test stats: 0.6904 precision: 0.9402 recall: 0.4104 F1_Score: 0.5651 
+ Epoch 174 | current stats acy: 0.5889 precision: 0.5898 recall: 0.5963 F1_Score: 0.5908 | best test stats: 0.6904 precision: 0.9402 recall: 0.4104 F1_Score: 0.5651 
+ Epoch 179 | current stats acy: 0.5889 precision: 0.5898 recall: 0.5963 F1_Score: 0.5908 | best test stats: 0.6904 precision: 0.9402 recall: 0.4104 F1_Score: 0.5651 
+ Epoch 184 | current stats acy: 0.5907 precision: 0.5918 recall: 0.5963 F1_Score: 0.5918 | best test stats: 0.6904 precision: 0.9402 recall: 0.4104 F1_Score: 0.5651 
+ Epoch 189 | current stats acy: 0.5907 precision: 0.5918 recall: 0.5963 F1_Score: 0.5918 | best test stats: 0.6904 precision: 0.9402 recall: 0.4104 F1_Score: 0.5651 
+ Epoch 194 | current stats acy: 0.5907 precision: 0.5918 recall: 0.5963 F1_Score: 0.5918 | best test stats: 0.6904 precision: 0.9402 recall: 0.4104 F1_Score: 0.5651 
+
+	===>   NN-based attack  ./final-all-models/undefended-trainSize-1500.pth.tar
+ Epoch 199 | current stats acy: 0.5889 precision: 0.5903 recall: 0.5926 F1_Score: 0.5893 | best test stats: 0.6904 precision: 0.9402 recall: 0.4104 F1_Score: 0.5651 
+(1350, 1) (1350, 1)
