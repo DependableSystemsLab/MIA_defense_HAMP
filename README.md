@@ -20,7 +20,7 @@ Install the dependencies.
 ```
 # We install torch-gpu with cuda v1.12.0, and you may change to a different download version depending on your driver version
 pip install torch==1.12.0+cu116 torchvision==0.13.0+cu116 torchaudio==0.12.0 --extra-index-url https://download.pytorch.org/whl/cu116
-pip install pandas sklearn scipy==1.7 tensorflow==2.10.0 rdt==0.6.4 tqdm numba matplotlib
+pip install pandas==1.5.0 scikit-learn==1.0.2 scipy==1.7 tensorflow==2.12.0 rdt==0.6.4 tqdm numba matplotlib numpy==1.22.4
 ```
 
 
