@@ -717,7 +717,7 @@ elif(args.attack == 'loss'):
     y_score *= -1 # roc default > takes positive label; but we want < takes positive label
     save_tag = args.save_tag
     np.save( os.path.join(output_save_path, 'loss-based-%s.npy'%save_tag), np.r_[y_true, y_score] ) 
-    #get_tpr(y_true, y_score, args.fpr_threshold, 'loss-based-%s.npy'%save_tag)
+    get_tpr(y_true, y_score, args.fpr_threshold, 'loss-based-%s.npy'%save_tag)
 
     '''
     print("\t===> loss-based attack ", args.path)
