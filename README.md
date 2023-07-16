@@ -7,11 +7,16 @@ Code for the paper "**Overconfidence is a Dangerous Thing: Mitigating Membership
 Download the data and trained models for each dataset: [[Purchase](https://drive.google.com/file/d/1agznlDEFZKxFgHh9EkGup9U61BEOVDlD/view?usp=sharing)] [[Texas](https://drive.google.com/file/d/1BLmnrg4qSNgDE5DWGPWoKd27wmnX8sQ6/view?usp=sharing)] [[Cifar100](https://drive.google.com/file/d/1qenhMyoGiSU0V5xKzfRGCaiUWQ-D0VPD/view?usp=share_link)] [[Cifar10](https://drive.google.com/file/d/1lsLAKOJsd61YaM32_B3fECiBDksmlHrU/view?usp=share_link)] [[Location](https://drive.google.com/file/d/1sHP7DZya35flax6fqc_YI0VyavlrO6rD/view?usp=sharing)]
 
 ```
-unzip purchase-data.zip -d ./purchase
-unzip texas-data.zip -d ./texas
-unzip cifar100-data.zip -d ./cifar100
-unzip cifar10-data.zip -d ./cifar10
-unzip location-data.zip -d ./location
+unzip purchase-data.zip 
+unzip texas-data.zip 
+unzip cifar100-data.zip 
+unzip cifar10-data.zip 
+unzip location-data.zip 
+mv ./purchase-data/* ./purchase/
+mv ./texas-data/* ./texas/
+mv ./location-data/* ./location/
+mv ./cifar10-data/* ./cifar10/
+mv ./cifar100-data/* ./cifar100/
 ```
 
 
