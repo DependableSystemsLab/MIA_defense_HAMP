@@ -20,16 +20,30 @@ mv ./cifar100-data/* ./cifar100/
 ```
 
 
-Install the dependencies. 
+### Install the dependencies
+
+We tested on Debian 10 with Python 3.8.17. We use torch-gpu and you can install it based on your own cuda version. 
 
 ```
-# We install torch-gpu with cuda v1.12.0, and you may change to a different download version depending on your driver version
 pip install torch==1.12.0+cu116 torchvision==0.13.0+cu116 torchaudio==0.12.0 --extra-index-url https://download.pytorch.org/whl/cu116
 pip install pandas==1.5.0 scikit-learn==1.0.2 scipy==1.7 tensorflow==2.12.0 rdt==0.6.4 tqdm numba matplotlib numpy==1.22.4
 ```
 
+## Evaluation options
 
-## Performing Membership Inference
+- Option 1: for reproducing the key results in a time-sensitive manner. 
+
+Run ```run-all.sh```, which consolidates all experimental steps on all datasets. Note that this option only evaluates the performance on the undefended model and the HAMP model (for time constraining purpose). 
+
+Please refer to Step 2 - Evaluation option 1 below before running ```run-all.sh```, as you will need to download additional data for this evaluation. 
+
+
+- Option 2: for comprehensive evaluation (this option requires more evaluation time)
+
+Run the three experimental steps for each dataset separately, each of which is explained below. In this case, you will be evaluating the performance on all models (including other defense models) and this will take more time. 
+
+
+### Step 1: Performing Membership Inference
 
 Go to each dataset directory and run ```atk.sh &> R-atk```, which evaluates each model with multiple score-based attacks (except LiRA, which will be executed separately as it needs to train multiple shadow models). We use different tags in differentiating different defenses (e.g., *undefended* means the undefended model, *ls* means label smoothing). 
 
@@ -39,24 +53,50 @@ The output reports the model accuracy, the attack true positive rate (TPR) @ 0.1
 We exclude the label-only attacks (e.g., boundary-based attack) as they are unsuccessful when controlled at low false positive/negative regime. 
 
 
-## Evaluating the Likelihood-ratio attack (LiRA)
+### Step 2: Evaluating the Likelihood-ratio attack (LiRA)
 
-Go to each dataset directory and run ```lira-[defense_name].sh```, e.g., ```lira-hamp.sh &> R-lira-hamp```. This trains 128 shadow models for each defense. 
+- **Evaluation option 1** (using the scores from the pre-trained shadow models)
+
+Shadow model training in the LiRA evaluation is a very time-consuming process, and we provide the pre-computed logit-scaled scores from the shadow models to reproduce our results. You can download the scores here [[Purchase](https://drive.google.com/file/d/10-T5S1k5jJ0zHEHi-S8-IpseRyi9KBjF/view?usp=share_link)] [[Texas](https://drive.google.com/file/d/1YRO6EeBiBJrjNWHwuIHZHG1QtQFz8T56/view?usp=share_link)] [[Cifar100](https://drive.google.com/file/d/1yHfELNLEEurBfWy5gCNiiiU8f6WfPTsy/view?usp=share_link)] [[Cifar10](https://drive.google.com/file/d/1VtOuFVL497BiiM7shr3LuMlgB-bv8xe7/view?usp=share_link)] [[Location](https://drive.google.com/file/d/157uMira4I9MycPuCYOUEGT8d-IYzAtjs/view?usp=share_link)], and unzip them in the respecitve dataset directory. Then you can go to the respective dataset directory and run the evaluation as follows. 
+
+
+```
+# For LiRA evaluation on the [ Purchase100 ] dataset
+python lira-plot.py --shadow_data_path lira-undefended-fullMember-20000 --test_data_path lira-undefended-defense-fullMember-20000
+python lira-plot.py --shadow_data_path lira-hamp-fullMember-20000 --test_data_path lira-hamp-defense-fullMember-20000
+
+# For LiRA evaluation on the [ Texas100 ] dataset
+python lira-plot.py --shadow_data_path lira-undefended-fullMember-15000 --test_data_path lira-undefended-defense-fullMember-15000
+python lira-plot.py --shadow_data_path lira-hamp-fullMember-15000 --test_data_path lira-hamp-defense-fullMember-15000
+
+# For LiRA evaluation on the [ Location30 ] dataset
+python lira-plot.py --shadow_data_path lira-undefended-fullMember-1500 --test_data_path lira-undefended-defense-fullMember-1500
+python lira-plot.py --shadow_data_path lira-hamp-fullMember-1500 --test_data_path lira-hamp-defense-fullMember-1500
+
+# For LiRA evaluation on the [ CIFAR10 ] dataset
+python lira-plot.py --shadow_data_path lira-undefended-fullMember-25000 --test_data_path lira-undefended-defense-fullMember-25000
+python lira-plot.py --shadow_data_path lira-hamp-fullMember-25000 --test_data_path lira-hamp-defense-fullMember-25000
+
+# For LiRA evaluation on the [ CIFAR100 ] dataset
+python lira-plot.py --shadow_data_path lira-undefended-fullMember-25000 --test_data_path lira-undefended-defense-fullMember-25000
+python lira-plot.py --shadow_data_path lira-hamp-fullMember-25000 --test_data_path lira-hamp-defense-fullMember-25000
+```
+
+- **Evaluation option 2** (re-training the shadow models on your own)
+
+Go to each dataset directory and run ```lira-[defense_name].sh```, e.g., ```lira-hamp.sh &> R-lira-hamp```. This first trains 128 shadow models for each defense, and then performs the hypothesis test for membership inference. 
 
 Please be aware that shadow model training is a very time-consuming process, and some of the defense techniques (e.g., SELENA) are particularly so. You can consider the following options to accelerate the evaluation process: 
 
 1. Distribute the training across multiple GPUs. 
 2. Reduce the number of shadow models (default 128). 
 
-### Pre-trained shadow models
+### Interpreting the results
 
-We provide the pre-trained shadow models for HAMP on the CIFAR10 and CIFAR100 datasets for a speedy evaluation ([download here](https://drive.google.com/file/d/1b5feUBr6vlhVzhxD-gSCAMHCM01_cObr/view?usp=share_link)). In this case, you'll only need to get the logits from these shadow models, and then to initiate the inference process. 
+Step 1 and step 2 above evaluate the MIA risks posed by different attacks, and you can manually determine the *highest* attack TPR\@0.1\%FPR and attack TNR\@0.1\%FNR from the overall results. 
 
-Each folder (cifar10 or cifar100) contains two sub-folders: ```shadow-hamp-trainSize-25000-fullMember```, which contains 128 shadow models. ```lira-hamp-fullMember-25000```, which contains the index to the shadow training data for each model (this is for indexing the member and non-member samples for each shadow model). 
 
-Place these two folders in the respective dataset directory, and remove the the shadow-training part by  removing ```python lira-train-hamp.py ...``` in ```lira-hamp.sh```, and then run the modified script to perform the evaluation. 
-
-## Training the model from scratch
+### Step 3: Training the model from scratch
 
 Run ```./train-all.sh``` on each dataset directory. 
 
