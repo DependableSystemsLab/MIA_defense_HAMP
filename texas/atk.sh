@@ -1,12 +1,11 @@
 #!/bin/bash
-#source activate torch
-size=15000
+size=15000 # specify the size of the training set
 gpu=0
 
+# the following parameters specify the paths to different evaluated models
 undefended=./final-all-models/undefended-trainSize-$size.pth.tar 
 selena=./final-all-models/selena-trainSize-$size.pth.tar
 hamp=./final-all-models/hamp-trainSize-$size.pth.tar
-
 # The original DMP model we used for reporting the results in the paper was lost,
 # so we provide a newly trained one
 dmp=./final-all-models/dmp-trainSize-$size.pth.tar
@@ -17,11 +16,10 @@ ls=./final-all-models/ls-trainSize-$size.pth.tar
 
 
 tag_list=(undefended-$size selena-$size hamp-$size dmp-$size advreg-$size dpsgd-$size ls-$size memguard-$size)
-
 declare -i i=0
-
 for target_model in $undefended $selena $hamp $dmp $advreg $dpsgd $ls $memguard; do
 
+	# isModifyOutput indicates the output modification defense by HAMP
 	isModifyOutput=0
 	if [ $target_model = $hamp ]
 	then
@@ -31,14 +29,15 @@ for target_model in $undefended $selena $hamp $dmp $advreg $dpsgd $ls $memguard;
 	isMemGuard=0
 	if [ ${tag_list[$i]} = memguard-$size ]
 	then
-		# save the modified output by MemGuard
-		isMemGuard=1
+		# compute the obfuscated scores by MemGuard
+		# and save these scores to be evaluated later 
 		python attack.py --path $target_model  --train_size $size  \
 		                 --isModifyOutput 0 --attack entropy --save_tag test  --getModelAcy 0 --isMemGuard 0 --prepMemGuard 1 \
 		                 --memguard_path ./final-all-models/texas\_$size\_MIA_model.h5 --gpu $gpu
+		isMemGuard=1
 	fi
 
-
+	# evaluate each defense models with different attacks, e.g., entropy-based attack, NN-based attack
 	python attack.py --gpu $gpu  --isMemGuard $isMemGuard --path $target_model  --train_size $size   --isModifyOutput $isModifyOutput --attack entropy --save_tag ${tag_list[$i]}  --getModelAcy 1
 	python attack.py --gpu $gpu  --isMemGuard $isMemGuard --path $target_model  --train_size $size   --isModifyOutput $isModifyOutput --attack loss --save_tag ${tag_list[$i]} 
 	python attack.py --gpu $gpu  --isMemGuard $isMemGuard --path $target_model  --train_size $size   --isModifyOutput $isModifyOutput --attack nn --save_tag ${tag_list[$i]}

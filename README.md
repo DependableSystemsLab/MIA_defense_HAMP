@@ -22,9 +22,12 @@ mv ./cifar100-data/* ./cifar100/
 
 ### Install the dependencies
 
-We tested on Debian 10 with Python 3.8.17. We use torch-gpu and you can install it based on your own cuda version. 
+We tested on Debian 10 with Python 3.8.17. We use torch-gpu and you can install it based on your own cuda version. We also recommend installing the dependencies via virtual env management tool, e.g., anaconda.
 
 ```
+conda create -n hamp python=3.8
+conda activate hamp 
+
 pip install torch==1.12.0+cu116 torchvision==0.13.0+cu116 torchaudio==0.12.0 --extra-index-url https://download.pytorch.org/whl/cu116
 pip install pandas==1.5.0 scikit-learn==1.0.2 scipy==1.7 tensorflow==2.12.0 rdt==0.6.4 tqdm numba matplotlib numpy==1.22.4
 ```
@@ -33,7 +36,7 @@ pip install pandas==1.5.0 scikit-learn==1.0.2 scipy==1.7 tensorflow==2.12.0 rdt=
 
 - Option 1: for reproducing the key results in a time-sensitive manner. 
 
-Run ```run-all.sh```, which consolidates all experimental steps on all datasets. Note that this option only evaluates the performance on the undefended model and the HAMP model (for time constraining purpose). 
+Run ```run-all.sh```, which consolidates all experimental steps on all datasets. Note that this option only evaluates the performance on the undefended model and the HAMP model. 
 
 Please refer to Step 2 - Evaluation option 1 below before running ```run-all.sh```, as you will need to download additional data for this evaluation. 
 
@@ -84,7 +87,7 @@ python lira-plot.py --shadow_data_path lira-hamp-fullMember-25000 --test_data_pa
 
 - **Evaluation option 2** (re-training the shadow models on your own)
 
-Go to each dataset directory and run ```lira-[defense_name].sh```, e.g., ```lira-hamp.sh &> R-lira-hamp```. This first trains 128 shadow models for each defense, and then performs the hypothesis test for membership inference. 
+Go to each dataset directory and run ```lira-[defense_name].sh```, e.g., ```lira-hamp.sh &> R-lira-hamp```. For each defense, it first trains 128 shadow models, then computes the logit-scaled scores on both the shadow and defense models, and finally performs the hypothesis test for membership inference. 
 
 Please be aware that shadow model training is a very time-consuming process, and some of the defense techniques (e.g., SELENA) are particularly so. You can consider the following options to accelerate the evaluation process: 
 

@@ -2,9 +2,13 @@
 
 echo "====> Evaluation on [ Purchase100 ] dataset"
 cd ./purchase
+# ./atk.sh evaluates each model with multiple score-based attacks, except LiRA attack
 bash ./atk-undefended-hamp-only.sh &> R-atk
+# the following two commands perform LiRA evaluation (using the pre-computed scores we provided) 
+# on the undefended and HAMP models, respectively
 python lira-plot.py --shadow_data_path lira-undefended-fullMember-20000 --test_data_path lira-undefended-defense-fullMember-20000 &> R-undefended-lira
 python lira-plot.py --shadow_data_path lira-hamp-fullMember-20000 --test_data_path lira-hamp-defense-fullMember-20000 &> R-hamp-lira
+# the following command re-trains different defense models 
 bash ./train-undefended-hamp-only.sh &> R-train
 
 echo "====> Evaluation on [ Texas100 ] dataset"
