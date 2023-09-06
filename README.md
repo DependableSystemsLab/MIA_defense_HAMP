@@ -2,6 +2,8 @@
 
 Code for the paper "**Overconfidence is a Dangerous Thing: Mitigating Membership Inference Attacks by Enforcing Less Confident Prediction**" in NDSS'24.
 
+09/2023: We earned all badges (available, functional, reproduced) in the NDSS artifact evaluation.
+
 ## Getting started
 
 Download the data and trained models for each dataset: [[Purchase](https://drive.google.com/file/d/1agznlDEFZKxFgHh9EkGup9U61BEOVDlD/view?usp=sharing)] [[Texas](https://drive.google.com/file/d/1BLmnrg4qSNgDE5DWGPWoKd27wmnX8sQ6/view?usp=sharing)] [[Cifar100](https://drive.google.com/file/d/1qenhMyoGiSU0V5xKzfRGCaiUWQ-D0VPD/view?usp=share_link)] [[Cifar10](https://drive.google.com/file/d/1lsLAKOJsd61YaM32_B3fECiBDksmlHrU/view?usp=share_link)] [[Location](https://drive.google.com/file/d/1sHP7DZya35flax6fqc_YI0VyavlrO6rD/view?usp=sharing)]
